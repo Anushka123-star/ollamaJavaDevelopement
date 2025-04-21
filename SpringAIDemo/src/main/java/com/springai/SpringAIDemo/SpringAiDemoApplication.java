@@ -14,7 +14,7 @@ public class SpringAiDemoApplication {
     }
 
     @Bean
-    ChatMemory chatHistory() {
+    ChatMemory chatHistory() { 
         return new InMemoryChatMemory();
     }
 }
