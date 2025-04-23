@@ -20,7 +20,7 @@
 [INFO] Compiling 3 source files with javac [debug parameters release 17] to target\classes
 [INFO] 
 [INFO] --- resources:3.3.1:testResources (default-testResources) @ SpringAIDemo ---
-[INFO] skip non existing resourceDirectory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\test\resources
+[INFO] Copying 0 resource from src\test\resources to target\test-classes
 [INFO] 
 [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ SpringAIDemo ---
 [INFO] Recompiling the module because of changed dependency.
@@ -41,46 +41,56 @@
 
  :: Spring Boot ::                (v3.4.4)
 
-2025-04-23T22:17:00.977+05:30  INFO 3360 --- [SpringAIDemo] [           main] c.s.S.SpringAiDemoApplication            : Starting SpringAiDemoApplication using Java 21.0.6 with PID 3360 (C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes started by kmanu in C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo)
-2025-04-23T22:17:00.979+05:30  INFO 3360 --- [SpringAIDemo] [           main] c.s.S.SpringAiDemoApplication            : No active profile set, falling back to 1 default profile: "default"
-2025-04-23T22:17:01.678+05:30  INFO 3360 --- [SpringAIDemo] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-23T22:17:01.692+05:30  INFO 3360 --- [SpringAIDemo] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-23T22:17:01.693+05:30  INFO 3360 --- [SpringAIDemo] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-23T22:17:01.754+05:30  INFO 3360 --- [SpringAIDemo] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-23T22:17:01.755+05:30  INFO 3360 --- [SpringAIDemo] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 738 ms
-2025-04-23T22:17:01.800+05:30  WARN 3360 --- [SpringAIDemo] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'chatbotController' defined in file [C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes\com\springai\SpringAIDemo\ChatbotController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'chatClientBuilder' defined in class path resource [org/springframework/ai/autoconfigure/chat/client/ChatClientAutoConfiguration.class]: Unsatisfied dependency expressed through method 'chatClientBuilder' parameter 1: No qualifying bean of type 'org.springframework.ai.chat.model.ChatModel' available: expected single matching bean but found 2: mistralAiChatModel,ollamaChatModel
-2025-04-23T22:17:01.802+05:30  INFO 3360 --- [SpringAIDemo] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-04-23T22:17:01.812+05:30  INFO 3360 --- [SpringAIDemo] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-04-23T22:33:56.202+05:30  INFO 25544 --- [SpringAIDemo] [           main] c.s.S.SpringAiDemoApplication            : Starting SpringAiDemoApplication using Java 21.0.6 with PID 25544 (C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes started by kmanu in C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo)
+2025-04-23T22:33:56.206+05:30  INFO 25544 --- [SpringAIDemo] [           main] c.s.S.SpringAiDemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-04-23T22:33:57.425+05:30  INFO 25544 --- [SpringAIDemo] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-23T22:33:57.441+05:30  INFO 25544 --- [SpringAIDemo] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-23T22:33:57.442+05:30  INFO 25544 --- [SpringAIDemo] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-23T22:33:57.508+05:30  INFO 25544 --- [SpringAIDemo] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-23T22:33:57.509+05:30  INFO 25544 --- [SpringAIDemo] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1259 ms
+2025-04-23T22:33:57.562+05:30  WARN 25544 --- [SpringAIDemo] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'chatbotController' defined in file [C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes\com\springai\SpringAIDemo\ChatbotController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.ai.chat.client.ChatClient$Builder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier("ollamaChatModel")}
+2025-04-23T22:33:57.565+05:30  INFO 25544 --- [SpringAIDemo] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-04-23T22:33:57.578+05:30  INFO 25544 --- [SpringAIDemo] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-04-23T22:17:01.827+05:30 ERROR 3360 --- [SpringAIDemo] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+2025-04-23T22:33:57.602+05:30 ERROR 25544 --- [SpringAIDemo] [           main] o.s.boot.SpringApplication               : Application run failed
 
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 1 of method chatClientBuilder in org.springframework.ai.autoconfigure.chat.client.ChatClientAutoConfiguration required a single bean, but 2 were found:
-	- mistralAiChatModel: defined by method 'mistralAiChatModel' in class path resource [org/springframework/ai/autoconfigure/mistralai/MistralAiAutoConfiguration.class]
-	- ollamaChatModel: defined by method 'ollamaChatModel' in class path resource [org/springframework/ai/autoconfigure/ollama/OllamaAutoConfiguration.class]
-
-This may be due to missing parameter name information
-
-Action:
-
-Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
-
-Ensure that your compiler is configured to use the '-parameters' flag.
-You may need to update both your build tool settings as well as your IDE.
-(See https://github.com/spring-projects/spring-framework/wiki/Upgrading-to-Spring-Framework-6.x#parameter-name-retention)
-
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'chatbotController' defined in file [C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes\com\springai\SpringAIDemo\ChatbotController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.ai.chat.client.ChatClient$Builder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier("ollamaChatModel")}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1381) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.4.jar:3.4.4]
+	at com.springai.SpringAIDemo.SpringAiDemoApplication.main(SpringAiDemoApplication.java:13) ~[classes/:na]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.ai.chat.client.ChatClient$Builder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier("ollamaChatModel")}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:2207) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1630) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.5.jar:6.2.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.5.jar:6.2.5]
+	... 21 common frames omitted
 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.349 s
-[INFO] Finished at: 2025-04-23T22:17:01+05:30
+[INFO] Total time:  4.751 s
+[INFO] Finished at: 2025-04-23T22:33:57+05:30
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.4.4:run (default-cli) on project SpringAIDemo: Process terminated with exit code: 1 -> [Help 1]
 org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.4.4:run (default-cli) on project SpringAIDemo: Process terminated with exit code: 1

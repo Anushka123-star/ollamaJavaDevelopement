@@ -1,37 +1,46 @@
 package com.springai.SpringAIDemo;
 
-import org.springframework.ai.chat.client.ChatClient;
-import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
-import org.springframework.ai.chat.memory.ChatMemory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.*;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
-import static org.springframework.ai.chat.client.advisor.AbstractChatMemoryAdvisor.CHAT_MEMORY_CONVERSATION_ID_KEY;
+import java.util.HashMap;
+import java.util.Map;
 
 @RestController
-class ChatbotController {
-
-    private final ChatClient chatClient;
+@RequestMapping("/chat")
+public class SpringAIChatController {
 
     @Autowired
-    public ChatbotController(@Qualifier("ollamaChatModel") ChatClient.Builder chatClientBuilder, ChatMemory chatMemory) {
-        this.chatClient = chatClientBuilder.clone()
-                .defaultAdvisors(new MessageChatMemoryAdvisor(chatMemory))
-                .build();
-    }
+    private RestTemplate restTemplate;
 
-    @PostMapping("/chat/{conversationId}")
-    String chat(@PathVariable String conversationId, @RequestBody String question) {
-        return chatClient
-                .prompt()
-                .user(question)
-                .advisors(a -> a.param(CHAT_MEMORY_CONVERSATION_ID_KEY, conversationId))
-                .call()
-                .content();
-    }
+    private static final String OLLAMA_URL = "http://localhost:11434/api/generate";
 
+    @PostMapping("/{conversationId}")
+    public String chat(@PathVariable String conversationId, @RequestBody String question) {
+
+        // Prepare request body for Ollama API
+        Map<String, Object> requestBody = new HashMap<>();
+        requestBody.put("model", "llama2"); // use llama2 as model name
+        requestBody.put("prompt", question);
+        requestBody.put("stream", false); // disable streaming for simplicity
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+
+        HttpEntity<Map<String, Object>> request = new HttpEntity<>(requestBody, headers);
+
+        try {
+            ResponseEntity<Map> response = restTemplate.postForEntity(OLLAMA_URL, request, Map.class);
+
+            if (response.getStatusCode() == HttpStatus.OK && response.getBody() != null) {
+                return (String) response.getBody().get("response");
+            } else {
+                return "Error: Unexpected response from Ollama";
+            }
+        } catch (Exception e) {
+            return "Error communicating with Ollama: " + e.getMessage();
+        }
+    }
 }
