@@ -328,7 +328,7 @@ OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
 [DEBUG] =======================================================================
 [DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-snapshots (http://oss.sonatype.org/content/repositories/vaadin-snapshots/).
 [DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-releases (http://oss.sonatype.org/content/repositories/vaadin-releases/).
-[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=674200, ConflictMarker.markTime=176800, ConflictMarker.nodeCount=186, ConflictIdSorter.graphTime=354800, ConflictIdSorter.topsortTime=733600, ConflictIdSorter.conflictIdCount=93, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=7716400, ConflictResolver.conflictItemCount=184, DfDependencyCollector.collectTime=369550300, DfDependencyCollector.transformTime=11224900}
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=991600, ConflictMarker.markTime=318200, ConflictMarker.nodeCount=186, ConflictIdSorter.graphTime=707500, ConflictIdSorter.topsortTime=529200, ConflictIdSorter.conflictIdCount=93, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=9423400, ConflictResolver.conflictItemCount=184, DfDependencyCollector.collectTime=363601800, DfDependencyCollector.transformTime=13390000}
 [DEBUG] com.springai:SpringAIDemo:jar:0.0.1-SNAPSHOT
 [DEBUG]    org.springframework.boot:spring-boot-starter-web:jar:3.4.4:compile
 [DEBUG]       org.springframework.boot:spring-boot-starter:jar:3.4.4:compile (version managed from 3.4.4)
@@ -425,7 +425,7 @@ OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
 [DEBUG]       org.xmlunit:xmlunit-core:jar:2.10.0:test (version managed from 2.10.0)
 [INFO] 
 [INFO] --- clean:3.4.1:clean (default-clean) @ SpringAIDemo ---
-[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=32300, ConflictMarker.markTime=71500, ConflictMarker.nodeCount=2, ConflictIdSorter.graphTime=5700, ConflictIdSorter.topsortTime=9000, ConflictIdSorter.conflictIdCount=2, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=115200, ConflictResolver.conflictItemCount=2, DfDependencyCollector.collectTime=7868300, DfDependencyCollector.transformTime=249900}
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=96100, ConflictMarker.markTime=55900, ConflictMarker.nodeCount=2, ConflictIdSorter.graphTime=45500, ConflictIdSorter.topsortTime=13300, ConflictIdSorter.conflictIdCount=2, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=105800, ConflictResolver.conflictItemCount=2, DfDependencyCollector.collectTime=8536300, DfDependencyCollector.transformTime=337000}
 [DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:3.4.1
 [DEBUG]    org.codehaus.plexus:plexus-utils:jar:4.0.1:compile
 [DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.4.1
@@ -484,7 +484,7 @@ OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
 [INFO] >>> spring-boot:3.4.4:run (default-cli) > test-compile @ SpringAIDemo >>>
 [INFO] 
 [INFO] --- resources:3.3.1:resources (default-resources) @ SpringAIDemo ---
-[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=41600, ConflictMarker.markTime=18600, ConflictMarker.nodeCount=13, ConflictIdSorter.graphTime=13800, ConflictIdSorter.topsortTime=9800, ConflictIdSorter.conflictIdCount=9, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=135200, ConflictResolver.conflictItemCount=13, DfDependencyCollector.collectTime=53894100, DfDependencyCollector.transformTime=235300}
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=232900, ConflictMarker.markTime=226300, ConflictMarker.nodeCount=13, ConflictIdSorter.graphTime=101300, ConflictIdSorter.topsortTime=12300, ConflictIdSorter.conflictIdCount=9, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=307000, ConflictResolver.conflictItemCount=13, DfDependencyCollector.collectTime=49643600, DfDependencyCollector.transformTime=897200}
 [DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1
 [DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.26:runtime
 [DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.5.1:compile
@@ -739,7 +739,7 @@ OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
 [DEBUG] maven-source-plugin.version: 3.3.1
 [DEBUG] maven-surefire-plugin.version: 3.5.2
 [DEBUG] maven-war-plugin.version: 3.4.0
-[DEBUG] maven.build.timestamp: 2025-04-23T16:33:46Z
+[DEBUG] maven.build.timestamp: 2025-04-23T16:40:30Z
 [DEBUG] maven.build.version: Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
 [DEBUG] maven.compiler.release: 17
 [DEBUG] maven.conf: C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c/conf
@@ -874,7 +874,7 @@ includes []
 [INFO] 
 [INFO] --- compiler:3.13.0:compile (default-compile) @ SpringAIDemo ---
 [DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
-[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=101500, ConflictMarker.markTime=14600, ConflictMarker.nodeCount=22, ConflictIdSorter.graphTime=53500, ConflictIdSorter.topsortTime=10500, ConflictIdSorter.conflictIdCount=14, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=171600, ConflictResolver.conflictItemCount=22, DfDependencyCollector.collectTime=56375900, DfDependencyCollector.transformTime=363000}
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=36300, ConflictMarker.markTime=13000, ConflictMarker.nodeCount=22, ConflictIdSorter.graphTime=19500, ConflictIdSorter.topsortTime=11100, ConflictIdSorter.conflictIdCount=14, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=123200, ConflictResolver.conflictItemCount=22, DfDependencyCollector.collectTime=47940600, DfDependencyCollector.transformTime=214400}
 [DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.13.0
 [DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.4.2:compile
 [DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
@@ -1266,7 +1266,7 @@ includes []
 [DEBUG] maven-source-plugin.version: 3.3.1
 [DEBUG] maven-surefire-plugin.version: 3.5.2
 [DEBUG] maven-war-plugin.version: 3.4.0
-[DEBUG] maven.build.timestamp: 2025-04-23T16:33:47Z
+[DEBUG] maven.build.timestamp: 2025-04-23T16:40:30Z
 [DEBUG] maven.build.version: Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
 [DEBUG] maven.compiler.release: 17
 [DEBUG] maven.conf: C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c/conf
@@ -1548,7 +1548,7 @@ includes []
 [INFO] 
 [INFO] 
 [INFO] --- spring-boot:3.4.4:run (default-cli) @ SpringAIDemo ---
-[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=111900, ConflictMarker.markTime=45400, ConflictMarker.nodeCount=55, ConflictIdSorter.graphTime=45500, ConflictIdSorter.topsortTime=27400, ConflictIdSorter.conflictIdCount=39, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=829900, ConflictResolver.conflictItemCount=55, DfDependencyCollector.collectTime=112686900, DfDependencyCollector.transformTime=1088500}
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=95800, ConflictMarker.markTime=28100, ConflictMarker.nodeCount=55, ConflictIdSorter.graphTime=35200, ConflictIdSorter.topsortTime=22900, ConflictIdSorter.conflictIdCount=39, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1046700, ConflictResolver.conflictItemCount=55, DfDependencyCollector.collectTime=95169500, DfDependencyCollector.transformTime=1251500}
 [DEBUG] org.springframework.boot:spring-boot-maven-plugin:jar:3.4.4
 [DEBUG]    org.springframework.boot:spring-boot-buildpack-platform:jar:3.4.4:runtime
 [DEBUG]       com.fasterxml.jackson.core:jackson-databind:jar:2.18.3:runtime
@@ -1648,7 +1648,7 @@ includes []
 [DEBUG] Classpath for forked process: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot\3.4.4\spring-boot-3.4.4.jar;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.4.4\spring-boot-autoconfigure-3.4.4.jar;C:\Users\kmanu\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar;C:\Users\kmanu\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar;C:\Users\kmanu\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar;C:\Users\kmanu\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\kmanu\.m2\repository\org\slf4j\jul-to-slf4j\2.0.17\jul-to-slf4j-2.0.17.jar;C:\Users\kmanu\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\kmanu\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.18.3\jackson-datatype-jdk8-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.3\jackson-datatype-jsr310-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.18.3\jackson-module-parameter-names-2.18.3.jar;C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.39\tomcat-embed-core-10.1.39.jar;C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.39\tomcat-embed-el-10.1.39.jar;C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.39\tomcat-embed-websocket-10.1.39.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-web\6.2.5\spring-web-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-beans\6.2.5\spring-beans-6.2.5.jar;C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-observation\1.14.5\micrometer-observation-1.14.5.jar;C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-commons\1.14.5\micrometer-commons-1.14.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-webmvc\6.2.5\spring-webmvc-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-aop\6.2.5\spring-aop-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-context\6.2.5\spring-context-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-expression\6.2.5\spring-expression-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-mistral-ai-spring-boot-starter\1.0.0-M6\spring-ai-mistral-ai-spring-boot-starter-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-spring-boot-autoconfigure\1.0.0-M6\spring-ai-spring-boot-autoconfigure-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-mistral-ai\1.0.0-M6\spring-ai-mistral-ai-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-core\1.0.0-M6\spring-ai-core-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\module\jackson-module-jsonSchema\2.18.3\jackson-module-jsonSchema-2.18.3.jar;C:\Users\kmanu\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\kmanu\.m2\repository\io\swagger\core\v3\swagger-annotations\2.2.25\swagger-annotations-2.2.25.jar;C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-module-swagger-2\4.37.0\jsonschema-module-swagger-2-4.37.0.jar;C:\Users\kmanu\.m2\repository\org\antlr\ST4\4.3.4\ST4-4.3.4.jar;C:\Users\kmanu\.m2\repository\org\antlr\antlr-runtime\3.5.3\antlr-runtime-3.5.3.jar;C:\Users\kmanu\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\kmanu\.m2\repository\io\projectreactor\reactor-core\3.7.4\reactor-core-3.7.4.jar;C:\Users\kmanu\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-messaging\6.2.5\spring-messaging-6.2.5.jar;C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-core\1.14.5\micrometer-core-1.14.5.jar;C:\Users\kmanu\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.2\HdrHistogram-2.2.2.jar;C:\Users\kmanu\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\kmanu\.m2\repository\io\micrometer\context-propagation\1.1.2\context-propagation-1.1.2.jar;C:\Users\kmanu\.m2\repository\com\knuddels\jtokkit\1.1.0\jtokkit-1.1.0.jar;C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-generator\4.37.0\jsonschema-generator-4.37.0.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-module-jackson\4.37.0\jsonschema-module-jackson-4.37.0.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-retry\1.0.0-M6\spring-ai-retry-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\retry\spring-retry\2.0.11\spring-retry-2.0.11.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-webflux\6.2.5\spring-webflux-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-context-support\6.2.5\spring-context-support-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-ollama-spring-boot-starter\1.0.0-M6\spring-ai-ollama-spring-boot-starter-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-ollama\1.0.0-M6\spring-ai-ollama-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-stability-ai-spring-boot-starter\1.0.0-M6\spring-ai-stability-ai-spring-boot-starter-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-stability-ai\1.0.0-M6\spring-ai-stability-ai-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-core\6.2.5\spring-core-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-jcl\6.2.5\spring-jcl-6.2.5.jar
 [DEBUG] Application arguments: 
 [DEBUG] Working directory: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo
-[DEBUG] Java arguments: -XX:TieredStopAtLevel=1 -cp @C:\Users\kmanu\AppData\Local\Temp\spring-boot-17353099628609851341.argfile com.springai.SpringAIDemo.SpringAiDemoApplication
+[DEBUG] Java arguments: -XX:TieredStopAtLevel=1 -cp @C:\Users\kmanu\AppData\Local\Temp\spring-boot-7271353668280892200.argfile com.springai.SpringAIDemo.SpringAiDemoApplication
 [DEBUG] Environment variables: 
 
   .   ____          _            __ _ _
@@ -1660,19 +1660,19 @@ includes []
 
  :: Spring Boot ::                (v3.4.4)
 
-2025-04-23T22:03:48.431+05:30  INFO 19896 --- [SpringAIDemo] [           main] c.s.S.SpringAiDemoApplication            : Starting SpringAiDemoApplication using Java 21.0.6 with PID 19896 (C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes started by kmanu in C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo)
-2025-04-23T22:03:48.432+05:30  INFO 19896 --- [SpringAIDemo] [           main] c.s.S.SpringAiDemoApplication            : No active profile set, falling back to 1 default profile: "default"
-2025-04-23T22:03:49.246+05:30  INFO 19896 --- [SpringAIDemo] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
-2025-04-23T22:03:49.257+05:30  INFO 19896 --- [SpringAIDemo] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-23T22:03:49.257+05:30  INFO 19896 --- [SpringAIDemo] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-23T22:03:49.300+05:30  INFO 19896 --- [SpringAIDemo] [           main] o.a.c.c.C.[.[localhost].[/ollama]        : Initializing Spring embedded WebApplicationContext
-2025-04-23T22:03:49.301+05:30  INFO 19896 --- [SpringAIDemo] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 834 ms
-2025-04-23T22:03:49.340+05:30  WARN 19896 --- [SpringAIDemo] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'chatbotController' defined in file [C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes\com\springai\SpringAIDemo\ChatbotController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'chatClientBuilder' defined in class path resource [org/springframework/ai/autoconfigure/chat/client/ChatClientAutoConfiguration.class]: Unsatisfied dependency expressed through method 'chatClientBuilder' parameter 1: No qualifying bean of type 'org.springframework.ai.chat.model.ChatModel' available: expected single matching bean but found 2: mistralAiChatModel,ollamaChatModel
-2025-04-23T22:03:49.342+05:30  INFO 19896 --- [SpringAIDemo] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-04-23T22:03:49.351+05:30  INFO 19896 --- [SpringAIDemo] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-04-23T22:10:32.230+05:30  INFO 28136 --- [SpringAIDemo] [           main] c.s.S.SpringAiDemoApplication            : Starting SpringAiDemoApplication using Java 21.0.6 with PID 28136 (C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes started by kmanu in C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo)
+2025-04-23T22:10:32.231+05:30  INFO 28136 --- [SpringAIDemo] [           main] c.s.S.SpringAiDemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-04-23T22:10:33.001+05:30  INFO 28136 --- [SpringAIDemo] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2025-04-23T22:10:33.025+05:30  INFO 28136 --- [SpringAIDemo] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-23T22:10:33.026+05:30  INFO 28136 --- [SpringAIDemo] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-23T22:10:33.068+05:30  INFO 28136 --- [SpringAIDemo] [           main] o.a.c.c.C.[.[localhost].[/ollama]        : Initializing Spring embedded WebApplicationContext
+2025-04-23T22:10:33.068+05:30  INFO 28136 --- [SpringAIDemo] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 798 ms
+2025-04-23T22:10:33.110+05:30  WARN 28136 --- [SpringAIDemo] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'chatbotController' defined in file [C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes\com\springai\SpringAIDemo\ChatbotController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'chatClientBuilder' defined in class path resource [org/springframework/ai/autoconfigure/chat/client/ChatClientAutoConfiguration.class]: Unsatisfied dependency expressed through method 'chatClientBuilder' parameter 1: No qualifying bean of type 'org.springframework.ai.chat.model.ChatModel' available: expected single matching bean but found 2: mistralAiChatModel,ollamaChatModel
+2025-04-23T22:10:33.112+05:30  INFO 28136 --- [SpringAIDemo] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-04-23T22:10:33.121+05:30  INFO 28136 --- [SpringAIDemo] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-04-23T22:03:49.367+05:30 ERROR 19896 --- [SpringAIDemo] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+2025-04-23T22:10:33.135+05:30 ERROR 28136 --- [SpringAIDemo] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
 
 ***************************
 APPLICATION FAILED TO START
@@ -1698,8 +1698,8 @@ You may need to update both your build tool settings as well as your IDE.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.175 s
-[INFO] Finished at: 2025-04-23T22:03:49+05:30
+[INFO] Total time:  4.087 s
+[INFO] Finished at: 2025-04-23T22:10:33+05:30
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.4.4:run (default-cli) on project SpringAIDemo: Process terminated with exit code: 1 -> [Help 1]
 org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.4.4:run (default-cli) on project SpringAIDemo: Process terminated with exit code: 1
