@@ -3,6 +3,8 @@ package com.springai.SpringAIDemo;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
 import org.springframework.ai.chat.memory.ChatMemory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -15,7 +17,8 @@ class ChatbotController {
 
     private final ChatClient chatClient;
 
-    ChatbotController(ChatClient.Builder chatClientBuilder, ChatMemory chatMemory) {
+    @Autowired
+    public ChatbotController(@Qualifier("ollamaChatModel") ChatClient.Builder chatClientBuilder, ChatMemory chatMemory) {
         this.chatClient = chatClientBuilder.clone()
                 .defaultAdvisors(new MessageChatMemoryAdvisor(chatMemory))
                 .build();
