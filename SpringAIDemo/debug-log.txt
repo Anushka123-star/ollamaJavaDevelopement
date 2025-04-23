@@ -1,0 +1,1768 @@
+Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Maven home: C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c
+Java version: 21.0.6, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-21
+Default locale: en_IN, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.graph < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.util < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\kmanu\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\kmanu\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\kmanu\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\kmanu\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Creating adapter using nameMapper 'gav' and factory 'rwlock-local'
+[DEBUG] Extension realms for project com.springai:SpringAIDemo:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:3.4.4: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-dependencies:pom:3.4.4: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving plugin prefix spring-boot from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix spring-boot to org.springframework.boot:spring-boot-maven-plugin from POM com.springai:SpringAIDemo:jar:0.0.1-SNAPSHOT
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.springai:SpringAIDemo:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, spring-boot:run]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ---------------------< com.springai:SpringAIDemo >----------------------
+[INFO] Building SpringAIDemo 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Resolving plugin prefix spring-boot from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix spring-boot to org.springframework.boot:spring-boot-maven-plugin from POM com.springai:SpringAIDemo:jar:0.0.1-SNAPSHOT
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.springai:SpringAIDemo:0.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:3.4.1:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${maven.clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <fast default-value="false">${maven.clean.fast}</fast>
+  <fastDir>${maven.clean.fastDir}</fastDir>
+  <fastMode default-value="background">${maven.clean.fastMode}</fastMode>
+  <followSymLinks default-value="false">${maven.clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${maven.clean.verbose}</verbose>
+</configuration>
+[DEBUG] --- init fork of com.springai:SpringAIDemo:0.0.1-SNAPSHOT for org.springframework.boot:spring-boot-maven-plugin:3.4.4:run (default-cli) ---
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, test]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <delimiters>
+    <delimiter>@</delimiter>
+  </delimiters>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <propertiesEncoding>UTF-8</propertiesEncoding>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true">false</useDefaultDelimiters>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <annotationProcessorPathsUseDepMgmt default-value="false"/>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <createMissingPackageInfoClass default-value="true">${maven.compiler.createMissingPackageInfoClass}</createMissingPackageInfoClass>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debugFileName default-value="javac"/>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <fileExtensions default-value="class,jar"/>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <forceLegacyJavacApi default-value="false">${maven.compiler.forceLegacyJavacApi}</forceLegacyJavacApi>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <implicit>${maven.compiler.implicit}</implicit>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}">${maven.compiler.outputDirectory}</outputDirectory>
+  <outputTimestamp default-value="${project.build.outputTimestamp}"/>
+  <parameters default-value="false">true</parameters>
+  <proc>${maven.compiler.proc}</proc>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showCompilationChanges default-value="false">${maven.compiler.showCompilationChanges}</showCompilationChanges>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="true">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.8">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.8">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.3.1:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <delimiters>
+    <delimiter>@</delimiter>
+  </delimiters>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <propertiesEncoding>UTF-8</propertiesEncoding>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true">false</useDefaultDelimiters>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.13.0:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <annotationProcessorPathsUseDepMgmt default-value="false"/>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <createMissingPackageInfoClass default-value="true">${maven.compiler.createMissingPackageInfoClass}</createMissingPackageInfoClass>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debugFileName default-value="javac-test"/>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <fileExtensions default-value="class,jar"/>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <forceLegacyJavacApi default-value="false">${maven.compiler.forceLegacyJavacApi}</forceLegacyJavacApi>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <implicit>${maven.compiler.implicit}</implicit>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <outputTimestamp default-value="${project.build.outputTimestamp}"/>
+  <parameters default-value="false">true</parameters>
+  <proc>${maven.compiler.proc}</proc>
+  <project default-value="${project}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showCompilationChanges default-value="false">${maven.compiler.showCompilationChanges}</showCompilationChanges>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="true">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.8">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.8">${maven.compiler.target}</target>
+  <testPath default-value="${project.testClasspathElements}"/>
+  <testRelease>${maven.compiler.testRelease}</testRelease>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <useModulePath default-value="true"/>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] --- exit fork of com.springai:SpringAIDemo:0.0.1-SNAPSHOT for org.springframework.boot:spring-boot-maven-plugin:3.4.4:run (default-cli) ---
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.springframework.boot:spring-boot-maven-plugin:3.4.4:run (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addResources default-value="false">${spring-boot.run.addResources}</addResources>
+  <additionalClasspathElements>${spring-boot.run.additional-classpath-elements}</additionalClasspathElements>
+  <agents>${spring-boot.run.agents}</agents>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <commandlineArguments>${spring-boot.run.arguments}</commandlineArguments>
+  <excludeGroupIds default-value="">${spring-boot.excludeGroupIds}</excludeGroupIds>
+  <excludes>${spring-boot.excludes}</excludes>
+  <includes>${spring-boot.includes}</includes>
+  <jvmArguments>${spring-boot.run.jvmArguments}</jvmArguments>
+  <mainClass>${start-class}</mainClass>
+  <noverify>${spring-boot.run.noverify}</noverify>
+  <optimizedLaunch default-value="true">${spring-boot.run.optimizedLaunch}</optimizedLaunch>
+  <profiles>${spring-boot.run.profiles}</profiles>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${spring-boot.run.skip}</skip>
+  <useTestClasspath default-value="false">${spring-boot.run.useTestClasspath}</useTestClasspath>
+  <workingDirectory>${spring-boot.run.workingDirectory}</workingDirectory>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-snapshots (http://oss.sonatype.org/content/repositories/vaadin-snapshots/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-releases (http://oss.sonatype.org/content/repositories/vaadin-releases/).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=674200, ConflictMarker.markTime=176800, ConflictMarker.nodeCount=186, ConflictIdSorter.graphTime=354800, ConflictIdSorter.topsortTime=733600, ConflictIdSorter.conflictIdCount=93, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=7716400, ConflictResolver.conflictItemCount=184, DfDependencyCollector.collectTime=369550300, DfDependencyCollector.transformTime=11224900}
+[DEBUG] com.springai:SpringAIDemo:jar:0.0.1-SNAPSHOT
+[DEBUG]    org.springframework.boot:spring-boot-starter-web:jar:3.4.4:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter:jar:3.4.4:compile (version managed from 3.4.4)
+[DEBUG]          org.springframework.boot:spring-boot:jar:3.4.4:compile (version managed from 3.4.4)
+[DEBUG]          org.springframework.boot:spring-boot-autoconfigure:jar:3.4.4:compile (version managed from 3.4.4)
+[DEBUG]          org.springframework.boot:spring-boot-starter-logging:jar:3.4.4:compile (version managed from 3.4.4)
+[DEBUG]             ch.qos.logback:logback-classic:jar:1.5.18:compile (version managed from 1.5.18)
+[DEBUG]                ch.qos.logback:logback-core:jar:1.5.18:compile (version managed from 1.5.18)
+[DEBUG]             org.apache.logging.log4j:log4j-to-slf4j:jar:2.24.3:compile (version managed from 2.24.3)
+[DEBUG]                org.apache.logging.log4j:log4j-api:jar:2.24.3:compile (version managed from 2.24.3)
+[DEBUG]             org.slf4j:jul-to-slf4j:jar:2.0.17:compile (version managed from 2.0.17)
+[DEBUG]          jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (version managed from 2.1.1)
+[DEBUG]          org.yaml:snakeyaml:jar:2.3:compile (version managed from 2.3)
+[DEBUG]       org.springframework.boot:spring-boot-starter-json:jar:3.4.4:compile (version managed from 3.4.4)
+[DEBUG]          com.fasterxml.jackson.core:jackson-databind:jar:2.18.3:compile (version managed from 2.18.3)
+[DEBUG]             com.fasterxml.jackson.core:jackson-annotations:jar:2.18.3:compile (version managed from 2.18.3)
+[DEBUG]             com.fasterxml.jackson.core:jackson-core:jar:2.18.3:compile (version managed from 2.18.3)
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.18.3:compile (version managed from 2.18.3)
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.18.3:compile (version managed from 2.18.3)
+[DEBUG]          com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.18.3:compile (version managed from 2.18.3)
+[DEBUG]       org.springframework.boot:spring-boot-starter-tomcat:jar:3.4.4:compile (version managed from 3.4.4)
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.39:compile (version managed from 10.1.39)
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.39:compile (version managed from 10.1.39)
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.39:compile (version managed from 10.1.39)
+[DEBUG]       org.springframework:spring-web:jar:6.2.5:compile (version managed from 6.2.5)
+[DEBUG]          org.springframework:spring-beans:jar:6.2.5:compile (version managed from 6.2.5)
+[DEBUG]          io.micrometer:micrometer-observation:jar:1.14.5:compile (version managed from 1.14.5)
+[DEBUG]             io.micrometer:micrometer-commons:jar:1.14.5:compile (version managed from 1.14.5)
+[DEBUG]       org.springframework:spring-webmvc:jar:6.2.5:compile (version managed from 6.2.5)
+[DEBUG]          org.springframework:spring-aop:jar:6.2.5:compile (version managed from 6.2.5)
+[DEBUG]          org.springframework:spring-context:jar:6.2.5:compile (version managed from 6.2.5)
+[DEBUG]          org.springframework:spring-expression:jar:6.2.5:compile (version managed from 6.2.5)
+[DEBUG]    org.springframework.ai:spring-ai-mistral-ai-spring-boot-starter:jar:1.0.0-M6:compile
+[DEBUG]       org.springframework.ai:spring-ai-spring-boot-autoconfigure:jar:1.0.0-M6:compile (version managed from 1.0.0-M6)
+[DEBUG]       org.springframework.ai:spring-ai-mistral-ai:jar:1.0.0-M6:compile (version managed from 1.0.0-M6)
+[DEBUG]          org.springframework.ai:spring-ai-core:jar:1.0.0-M6:compile (version managed from 1.0.0-M6)
+[DEBUG]             com.fasterxml.jackson.module:jackson-module-jsonSchema:jar:2.18.3:compile (version managed from 2.18.2)
+[DEBUG]                javax.validation:validation-api:jar:1.1.0.Final:compile
+[DEBUG]             io.swagger.core.v3:swagger-annotations:jar:2.2.25:compile
+[DEBUG]             com.github.victools:jsonschema-module-swagger-2:jar:4.37.0:compile
+[DEBUG]             org.antlr:ST4:jar:4.3.4:compile
+[DEBUG]                org.antlr:antlr-runtime:jar:3.5.3:compile
+[DEBUG]             org.antlr:antlr4-runtime:jar:4.13.1:compile
+[DEBUG]             io.projectreactor:reactor-core:jar:3.7.4:compile (version managed from 3.7.2)
+[DEBUG]                org.reactivestreams:reactive-streams:jar:1.0.4:compile (version managed from 1.0.4)
+[DEBUG]             org.springframework:spring-messaging:jar:6.2.5:compile (version managed from 6.2.2)
+[DEBUG]             io.micrometer:micrometer-core:jar:1.14.5:compile (version managed from 1.14.3)
+[DEBUG]                org.hdrhistogram:HdrHistogram:jar:2.2.2:runtime
+[DEBUG]                org.latencyutils:LatencyUtils:jar:2.0.3:runtime
+[DEBUG]             io.micrometer:context-propagation:jar:1.1.2:compile (version managed from 1.1.2)
+[DEBUG]             com.knuddels:jtokkit:jar:1.1.0:compile
+[DEBUG]             com.github.victools:jsonschema-generator:jar:4.37.0:compile
+[DEBUG]                com.fasterxml:classmate:jar:1.7.0:compile (version managed from 1.7.0)
+[DEBUG]             com.github.victools:jsonschema-module-jackson:jar:4.37.0:compile
+[DEBUG]          org.springframework.ai:spring-ai-retry:jar:1.0.0-M6:compile (version managed from 1.0.0-M6)
+[DEBUG]             org.springframework.retry:spring-retry:jar:2.0.11:compile (version managed from 2.0.11)
+[DEBUG]             org.springframework:spring-webflux:jar:6.2.5:compile (version managed from 6.2.2)
+[DEBUG]          org.springframework:spring-context-support:jar:6.2.5:compile (version managed from 6.2.2)
+[DEBUG]          org.slf4j:slf4j-api:jar:2.0.17:compile (version managed from 2.0.16)
+[DEBUG]    org.springframework.ai:spring-ai-ollama-spring-boot-starter:jar:1.0.0-M6:compile
+[DEBUG]       org.springframework.ai:spring-ai-ollama:jar:1.0.0-M6:compile (version managed from 1.0.0-M6)
+[DEBUG]    org.springframework.ai:spring-ai-stability-ai-spring-boot-starter:jar:1.0.0-M6:compile
+[DEBUG]       org.springframework.ai:spring-ai-stability-ai:jar:1.0.0-M6:compile (version managed from 1.0.0-M6)
+[DEBUG]    org.springframework.boot:spring-boot-starter-test:jar:3.4.4:test
+[DEBUG]       org.springframework.boot:spring-boot-test:jar:3.4.4:test (version managed from 3.4.4)
+[DEBUG]       org.springframework.boot:spring-boot-test-autoconfigure:jar:3.4.4:test (version managed from 3.4.4)
+[DEBUG]       com.jayway.jsonpath:json-path:jar:2.9.0:test (version managed from 2.9.0)
+[DEBUG]       jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:test (version managed from 4.0.2)
+[DEBUG]          jakarta.activation:jakarta.activation-api:jar:2.1.3:test (version managed from 2.1.3)
+[DEBUG]       net.minidev:json-smart:jar:2.5.2:test (version managed from 2.5.2)
+[DEBUG]          net.minidev:accessors-smart:jar:2.5.2:test
+[DEBUG]             org.ow2.asm:asm:jar:9.7.1:test
+[DEBUG]       org.assertj:assertj-core:jar:3.26.3:test (version managed from 3.26.3)
+[DEBUG]          net.bytebuddy:byte-buddy:jar:1.15.11:test (version managed from 1.14.18)
+[DEBUG]       org.awaitility:awaitility:jar:4.2.2:test (version managed from 4.2.2)
+[DEBUG]       org.hamcrest:hamcrest:jar:2.2:test (version managed from 2.2)
+[DEBUG]       org.junit.jupiter:junit-jupiter:jar:5.11.4:test (version managed from 5.11.4)
+[DEBUG]          org.junit.jupiter:junit-jupiter-api:jar:5.11.4:test (version managed from 5.11.4)
+[DEBUG]             org.opentest4j:opentest4j:jar:1.3.0:test
+[DEBUG]             org.junit.platform:junit-platform-commons:jar:1.11.4:test (version managed from 1.11.4)
+[DEBUG]             org.apiguardian:apiguardian-api:jar:1.1.2:test
+[DEBUG]          org.junit.jupiter:junit-jupiter-params:jar:5.11.4:test (version managed from 5.11.4)
+[DEBUG]          org.junit.jupiter:junit-jupiter-engine:jar:5.11.4:test (version managed from 5.11.4)
+[DEBUG]             org.junit.platform:junit-platform-engine:jar:1.11.4:test (version managed from 1.11.4)
+[DEBUG]       org.mockito:mockito-core:jar:5.14.2:test (version managed from 5.14.2)
+[DEBUG]          net.bytebuddy:byte-buddy-agent:jar:1.15.11:test (version managed from 1.15.4)
+[DEBUG]          org.objenesis:objenesis:jar:3.3:test
+[DEBUG]       org.mockito:mockito-junit-jupiter:jar:5.14.2:test (version managed from 5.14.2)
+[DEBUG]       org.skyscreamer:jsonassert:jar:1.5.3:test (version managed from 1.5.3)
+[DEBUG]          com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[DEBUG]       org.springframework:spring-core:jar:6.2.5:compile (version managed from 6.2.5)
+[DEBUG]          org.springframework:spring-jcl:jar:6.2.5:compile (version managed from 6.2.5)
+[DEBUG]       org.springframework:spring-test:jar:6.2.5:test (version managed from 6.2.5)
+[DEBUG]       org.xmlunit:xmlunit-core:jar:2.10.0:test (version managed from 2.10.0)
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ SpringAIDemo ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=32300, ConflictMarker.markTime=71500, ConflictMarker.nodeCount=2, ConflictIdSorter.graphTime=5700, ConflictIdSorter.topsortTime=9000, ConflictIdSorter.conflictIdCount=2, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=115200, ConflictResolver.conflictItemCount=2, DfDependencyCollector.collectTime=7868300, DfDependencyCollector.transformTime=249900}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:3.4.1
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:4.0.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.4.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.4.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.4.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:3.4.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:4.0.1
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-clean-plugin:3.4.1:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:3.4.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-clean-plugin:3.4.1:clean:default-clean' with basic configurator -->
+[DEBUG]   (f) directory = C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fast = false
+[DEBUG]   (f) fastMode = background
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes
+[DEBUG]   (f) reportDirectory = C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@59cda16e
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target
+[INFO] Deleting file C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes\application.properties
+[INFO] Deleting file C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes\com\springai\SpringAIDemo\ChatbotController.class
+[INFO] Deleting file C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes\com\springai\SpringAIDemo\SpringAiDemoApplication.class
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes\com\springai\SpringAIDemo
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes\com\springai
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes\com
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\generated-sources\annotations
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\generated-sources
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\generated-test-sources\test-annotations
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\generated-test-sources
+[INFO] Deleting file C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst
+[INFO] Deleting file C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\maven-status\maven-compiler-plugin\compile\default-compile
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\maven-status\maven-compiler-plugin\compile
+[INFO] Deleting file C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst
+[INFO] Deleting file C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\maven-status\maven-compiler-plugin\testCompile
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\maven-status\maven-compiler-plugin
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\maven-status
+[INFO] Deleting file C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\test-classes\com\springai\SpringAIDemo\SpringAiDemoApplicationTests.class
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\test-classes\com\springai\SpringAIDemo
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\test-classes\com\springai
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\test-classes\com
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\test-classes
+[INFO] Deleting directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target
+[DEBUG] Skipping non-existing directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes
+[DEBUG] Skipping non-existing directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\test-classes
+[DEBUG] Skipping non-existing directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes
+[INFO] 
+[INFO] >>> spring-boot:3.4.4:run (default-cli) > test-compile @ SpringAIDemo >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ SpringAIDemo ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=41600, ConflictMarker.markTime=18600, ConflictMarker.nodeCount=13, ConflictIdSorter.graphTime=13800, ConflictIdSorter.topsortTime=9800, ConflictIdSorter.conflictIdCount=9, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=135200, ConflictResolver.conflictItemCount=13, DfDependencyCollector.collectTime=53894100, DfDependencyCollector.transformTime=235300}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.26:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.5.1:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.3.1:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.11.0:compile
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.12.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.26
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.3.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.11.0
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.12.0
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources:default-resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (s) delimiters = [@]
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.springai:SpringAIDemo:0.0.1-SNAPSHOT @ C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\pom.xml
+[DEBUG]   (f) propertiesEncoding = UTF-8
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: true, FileSet {directory: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\main\resources, PatternSet [includes: {**/application*.yml, **/application*.yaml, **/application*.properties}, excludes: {}]}}, Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\main\resources, PatternSet [includes: {}, excludes: {**/application*.yml, **/application*.yaml, **/application*.properties}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@59cda16e
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = false
+[DEBUG] -- end configuration --
+[DEBUG] properties used:
+[DEBUG] activemq.version: 6.1.6
+[DEBUG] angus-mail.version: 2.0.3
+[DEBUG] artemis.version: 2.37.0
+[DEBUG] aspectj.version: 1.9.23
+[DEBUG] assertj.version: 3.26.3
+[DEBUG] awaitility.version: 4.2.2
+[DEBUG] brave.version: 6.0.3
+[DEBUG] build-helper-maven-plugin.version: 3.6.0
+[DEBUG] byte-buddy.version: 1.15.11
+[DEBUG] cache2k.version: 2.6.1.Final
+[DEBUG] caffeine.version: 3.1.8
+[DEBUG] cassandra-driver.version: 4.18.1
+[DEBUG] classmate.version: 1.7.0
+[DEBUG] classworlds.conf: C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c\bin\m2.conf
+[DEBUG] commons-codec.version: 1.17.2
+[DEBUG] commons-dbcp2.version: 2.12.0
+[DEBUG] commons-lang3.version: 3.17.0
+[DEBUG] commons-pool.version: 1.6
+[DEBUG] commons-pool2.version: 2.12.1
+[DEBUG] couchbase-client.version: 3.7.8
+[DEBUG] crac.version: 1.5.0
+[DEBUG] cyclonedx-maven-plugin.version: 2.9.1
+[DEBUG] db2-jdbc.version: 11.5.9.0
+[DEBUG] dependency-management-plugin.version: 1.1.7
+[DEBUG] derby.version: 10.16.1.1
+[DEBUG] ehcache3.version: 3.10.8
+[DEBUG] elasticsearch-client.version: 8.15.5
+[DEBUG] env.=::: ::\
+[DEBUG] env.=C:: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo
+[DEBUG] env.ALLUSERSPROFILE: C:\ProgramData
+[DEBUG] env.APPDATA: C:\Users\kmanu\AppData\Roaming
+[DEBUG] env.CLASSWORLDS_JAR: "C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c\boot\plexus-classworlds-2.8.0.jar"
+[DEBUG] env.CLASSWORLDS_LAUNCHER: org.codehaus.plexus.classworlds.launcher.Launcher
+[DEBUG] env.COMMONPROGRAMFILES: C:\Program Files\Common Files
+[DEBUG] env.COMMONPROGRAMFILES(X86): C:\Program Files (x86)\Common Files
+[DEBUG] env.COMMONPROGRAMW6432: C:\Program Files\Common Files
+[DEBUG] env.COMPUTERNAME: ANUSHKASRI
+[DEBUG] env.COMSPEC: C:\windows\System32\cmd.exe
+[DEBUG] env.DRIVERDATA: C:\Windows\System32\Drivers\DriverData
+[DEBUG] env.ECLIPSE_HOME: C:\Users\kmanu\eclipse\java-2024-03\eclipse
+[DEBUG] env.ECLIPSE_WORKSPACE: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo
+[DEBUG] env.EFC_14420: 1
+[DEBUG] env.ERROR_CODE: 0
+[DEBUG] env.EXEC_DIR: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo
+[DEBUG] env.FPS_BROWSER_APP_PROFILE_STRING: Internet Explorer
+[DEBUG] env.FPS_BROWSER_USER_PROFILE_STRING: Default
+[DEBUG] env.HOMEDRIVE: C:
+[DEBUG] env.HOMEPATH: \Users\kmanu
+[DEBUG] env.IGCCSVC_DB: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAHxoDdwEpPkSVvWPE1S2ncQQAAAACAAAAAAAQZgAAAAEAACAAAADGNWL8dbx2ceLLRaXKT99b8szZjs7sEAuPO5hUwQIm0AAAAAAOgAAAAAIAACAAAAAv12tP5pM+avbciqHzIPSlx/hQ6T9xgbeGtLSW7OP/mmAAAADeWPYFxCloGGajN0hecei9efpauAGS+tWqLsQ/crPA5Xz/F1AdY3hS89c/58MwgxetJzGmcymi9pa0i3e3NV+T2EeNN5WUomeN1a4ExHGm1uCgw2pocIF2Xa8D1jZ/mztAAAAAuNHgeE+V7PRSj85rbFXPMk6uvkN89Z4ymf5mb9sFVRPQEMuC7XdYxVDufa2gFMu8f57my0SVitHp5pnwzQ4uog==
+[DEBUG] env.INTELLIJ IDEA: C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.1\bin;
+[DEBUG] env.JAVACMD: C:\Program Files\Java\jdk-21\bin\java.exe
+[DEBUG] env.JAVA_HOME: C:\Program Files\Java\jdk-21
+[DEBUG] env.JVMCONFIG: \.mvn\jvm.config
+[DEBUG] env.LOCALAPPDATA: C:\Users\kmanu\AppData\Local
+[DEBUG] env.LOGONSERVER: \\ANUSHKASRI
+[DEBUG] env.MAVEN_CMD_LINE_ARGS: clean spring-boot:run -X
+[DEBUG] env.MAVEN_HOME: C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c
+[DEBUG] env.MAVEN_PROJECTBASEDIR: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo
+[DEBUG] env.MINGW: C:\msys64\ucrt64\bin
+[DEBUG] env.NINJA: C:\Tools\ninja-win
+[DEBUG] env.NUMBER_OF_PROCESSORS: 12
+[DEBUG] env.NVM_HOME: C:\Users\kmanu\AppData\Local\nvm
+[DEBUG] env.NVM_SYMLINK: C:\nvm4w\nodejs
+[DEBUG] env.ONEDRIVE: C:\Users\kmanu\OneDrive
+[DEBUG] env.ONLINESERVICES: Online Services
+[DEBUG] env.OS: Windows_NT
+[DEBUG] env.PATH: C:/Users/kmanu/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830/jre/bin/server;C:/Users/kmanu/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\msys64\ucrt64\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\HP\HP One Agent;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Tools\ninja-win;C:\Users\kmanu\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\kmanu\anaconda3;C:\Users\kmanu\anaconda3\Library\mingw-w64\bin;C:\Users\kmanu\anaconda3\Library\usr\bin;C:\Users\kmanu\anaconda3\Library\bin;C:\Users\kmanu\anaconda3\Scripts;C:\Users\kmanu\AppData\Local\Microsoft\WindowsApps;C:\Users\kmanu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.1\bin;;C:\Users\kmanu\.dotnet\tools;C:\Users\kmanu\AppData\Local\GitHubDesktop\bin;C:\Users\kmanu\AppData\Roaming\npm;C:\Users\kmanu\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\kmanu\AppData\Local\Programs\Ollama;C:\Program Files\apache-maven-3.9.9\bin;;C:\windows\System32;
+[DEBUG] env.PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+[DEBUG] env.PLATFORMCODE: M7
+[DEBUG] env.PROCESSOR_ARCHITECTURE: AMD64
+[DEBUG] env.PROCESSOR_IDENTIFIER: Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+[DEBUG] env.PROCESSOR_LEVEL: 6
+[DEBUG] env.PROCESSOR_REVISION: 9a03
+[DEBUG] env.PROGRAMDATA: C:\ProgramData
+[DEBUG] env.PROGRAMFILES: C:\Program Files
+[DEBUG] env.PROGRAMFILES(X86): C:\Program Files (x86)
+[DEBUG] env.PROGRAMW6432: C:\Program Files
+[DEBUG] env.PROMPT: $P$G
+[DEBUG] env.PSMODULEPATH: C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+[DEBUG] env.PUBLIC: C:\Users\Public
+[DEBUG] env.REGIONCODE: APJ
+[DEBUG] env.SESSIONNAME: Console
+[DEBUG] env.SYSTEMDRIVE: C:
+[DEBUG] env.SYSTEMROOT: C:\windows
+[DEBUG] env.TEMP: C:\Users\kmanu\AppData\Local\Temp
+[DEBUG] env.TERM: xterm
+[DEBUG] env.TMP: C:\Users\kmanu\AppData\Local\Temp
+[DEBUG] env.USERDOMAIN: ANUSHKASRI
+[DEBUG] env.USERDOMAIN_ROAMINGPROFILE: ANUSHKASRI
+[DEBUG] env.USERNAME: kmanu
+[DEBUG] env.USERPROFILE: C:\Users\kmanu
+[DEBUG] env.VBOX_MSI_INSTALL_PATH: C:\Program Files\Oracle\VirtualBox\
+[DEBUG] env.WDIR: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo
+[DEBUG] env.WINDIR: C:\windows
+[DEBUG] env.ZES_ENABLE_SYSMAN: 1
+[DEBUG] env.__MVNW_CMD__: C:\Users\kmanu/.m2/wrapper/dists/apache-maven-3.9.9/977a63e90f436cd6ade95b4c0e10c20c/bin/mvn.cmd
+[DEBUG] file.encoding: UTF-8
+[DEBUG] file.separator: \
+[DEBUG] flyway.version: 10.20.1
+[DEBUG] freemarker.version: 2.3.34
+[DEBUG] git-commit-id-maven-plugin.version: 9.0.1
+[DEBUG] glassfish-jaxb.version: 4.0.5
+[DEBUG] glassfish-jstl.version: 3.0.1
+[DEBUG] graphql-java.version: 22.3
+[DEBUG] groovy.version: 4.0.26
+[DEBUG] gson.version: 2.11.0
+[DEBUG] h2.version: 2.3.232
+[DEBUG] hamcrest.version: 2.2
+[DEBUG] hazelcast.version: 5.5.0
+[DEBUG] hibernate-validator.version: 8.0.2.Final
+[DEBUG] hibernate.version: 6.6.11.Final
+[DEBUG] hikaricp.version: 5.1.0
+[DEBUG] hsqldb.version: 2.7.3
+[DEBUG] htmlunit.version: 4.5.0
+[DEBUG] httpasyncclient.version: 4.1.5
+[DEBUG] httpclient5.version: 5.4.2
+[DEBUG] httpcore.version: 4.4.16
+[DEBUG] httpcore5.version: 5.3.3
+[DEBUG] infinispan.version: 15.0.14.Final
+[DEBUG] influxdb-java.version: 2.24
+[DEBUG] jackson-bom.version: 2.18.3
+[DEBUG] jakarta-activation.version: 2.1.3
+[DEBUG] jakarta-annotation.version: 2.1.1
+[DEBUG] jakarta-inject.version: 2.0.1
+[DEBUG] jakarta-jms.version: 3.1.0
+[DEBUG] jakarta-json-bind.version: 3.0.1
+[DEBUG] jakarta-json.version: 2.1.3
+[DEBUG] jakarta-mail.version: 2.1.3
+[DEBUG] jakarta-management.version: 1.1.4
+[DEBUG] jakarta-persistence.version: 3.1.0
+[DEBUG] jakarta-servlet-jsp-jstl.version: 3.0.2
+[DEBUG] jakarta-servlet.version: 6.0.0
+[DEBUG] jakarta-transaction.version: 2.0.1
+[DEBUG] jakarta-validation.version: 3.0.2
+[DEBUG] jakarta-websocket.version: 2.1.1
+[DEBUG] jakarta-ws-rs.version: 3.1.0
+[DEBUG] jakarta-xml-bind.version: 4.0.2
+[DEBUG] jakarta-xml-soap.version: 3.0.2
+[DEBUG] jakarta-xml-ws.version: 4.0.2
+[DEBUG] janino.version: 3.1.12
+[DEBUG] java.class.path: C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c\boot\plexus-classworlds-2.8.0.jar
+[DEBUG] java.class.version: 65.0
+[DEBUG] java.home: C:\Program Files\Java\jdk-21
+[DEBUG] java.io.tmpdir: C:\Users\kmanu\AppData\Local\Temp\
+[DEBUG] java.library.path: C:\Program Files\Java\jdk-21\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Users/kmanu/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830/jre/bin/server;C:/Users/kmanu/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\msys64\ucrt64\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\HP\HP One Agent;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Tools\ninja-win;C:\Users\kmanu\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\kmanu\anaconda3;C:\Users\kmanu\anaconda3\Library\mingw-w64\bin;C:\Users\kmanu\anaconda3\Library\usr\bin;C:\Users\kmanu\anaconda3\Library\bin;C:\Users\kmanu\anaconda3\Scripts;C:\Users\kmanu\AppData\Local\Microsoft\WindowsApps;C:\Users\kmanu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.1\bin;;C:\Users\kmanu\.dotnet\tools;C:\Users\kmanu\AppData\Local\GitHubDesktop\bin;C:\Users\kmanu\AppData\Roaming\npm;C:\Users\kmanu\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\kmanu\AppData\Local\Programs\Ollama;C:\Program Files\apache-maven-3.9.9\bin;;C:\windows\System32;;.
+[DEBUG] java.runtime.name: Java(TM) SE Runtime Environment
+[DEBUG] java.runtime.version: 21.0.6+8-LTS-188
+[DEBUG] java.specification.name: Java Platform API Specification
+[DEBUG] java.specification.vendor: Oracle Corporation
+[DEBUG] java.specification.version: 21
+[DEBUG] java.vendor: Oracle Corporation
+[DEBUG] java.vendor.url: https://java.oracle.com/
+[DEBUG] java.vendor.url.bug: https://bugreport.java.com/bugreport/
+[DEBUG] java.version: 21.0.6
+[DEBUG] java.version.date: 2025-01-21
+[DEBUG] java.vm.compressedOopsMode: 32-bit
+[DEBUG] java.vm.info: mixed mode, sharing
+[DEBUG] java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+[DEBUG] java.vm.specification.name: Java Virtual Machine Specification
+[DEBUG] java.vm.specification.vendor: Oracle Corporation
+[DEBUG] java.vm.specification.version: 21
+[DEBUG] java.vm.vendor: Oracle Corporation
+[DEBUG] java.vm.version: 21.0.6+8-LTS-188
+[DEBUG] javax-cache.version: 1.1.1
+[DEBUG] javax-money.version: 1.1
+[DEBUG] jaxen.version: 2.0.0
+[DEBUG] jaybird.version: 5.0.6.java11
+[DEBUG] jboss-logging.version: 3.6.1.Final
+[DEBUG] jdk.debug: release
+[DEBUG] jdom2.version: 2.0.6.1
+[DEBUG] jedis.version: 5.2.0
+[DEBUG] jersey.version: 3.1.10
+[DEBUG] jetty-reactive-httpclient.version: 4.0.9
+[DEBUG] jetty.version: 12.0.18
+[DEBUG] jmustache.version: 1.16
+[DEBUG] jooq.version: 3.19.21
+[DEBUG] json-path.version: 2.9.0
+[DEBUG] json-smart.version: 2.5.2
+[DEBUG] jsonassert.version: 1.5.3
+[DEBUG] jtds.version: 1.3.1
+[DEBUG] junit-jupiter.version: 5.11.4
+[DEBUG] junit.version: 4.13.2
+[DEBUG] kafka.version: 3.8.1
+[DEBUG] kotlin-coroutines.version: 1.8.1
+[DEBUG] kotlin-serialization.version: 1.6.3
+[DEBUG] kotlin.version: 1.9.25
+[DEBUG] lettuce.version: 6.4.2.RELEASE
+[DEBUG] library.jansi.path: C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c\lib\jansi-native
+[DEBUG] line.separator: 
+
+[DEBUG] liquibase.version: 4.29.2
+[DEBUG] log4j2.version: 2.24.3
+[DEBUG] logback.version: 1.5.18
+[DEBUG] lombok.version: 1.18.36
+[DEBUG] mariadb.version: 3.4.1
+[DEBUG] maven-antrun-plugin.version: 3.1.0
+[DEBUG] maven-assembly-plugin.version: 3.7.1
+[DEBUG] maven-clean-plugin.version: 3.4.1
+[DEBUG] maven-compiler-plugin.version: 3.13.0
+[DEBUG] maven-dependency-plugin.version: 3.8.1
+[DEBUG] maven-deploy-plugin.version: 3.1.4
+[DEBUG] maven-enforcer-plugin.version: 3.5.0
+[DEBUG] maven-failsafe-plugin.version: 3.5.2
+[DEBUG] maven-help-plugin.version: 3.5.1
+[DEBUG] maven-install-plugin.version: 3.1.4
+[DEBUG] maven-invoker-plugin.version: 3.8.1
+[DEBUG] maven-jar-plugin.version: 3.4.2
+[DEBUG] maven-javadoc-plugin.version: 3.10.1
+[DEBUG] maven-resources-plugin.version: 3.3.1
+[DEBUG] maven-shade-plugin.version: 3.6.0
+[DEBUG] maven-source-plugin.version: 3.3.1
+[DEBUG] maven-surefire-plugin.version: 3.5.2
+[DEBUG] maven-war-plugin.version: 3.4.0
+[DEBUG] maven.build.timestamp: 2025-04-23T16:33:46Z
+[DEBUG] maven.build.version: Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+[DEBUG] maven.compiler.release: 17
+[DEBUG] maven.conf: C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c/conf
+[DEBUG] maven.home: C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c
+[DEBUG] maven.multiModuleProjectDirectory: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo
+[DEBUG] maven.version: 3.9.9
+[DEBUG] micrometer-tracing.version: 1.4.4
+[DEBUG] micrometer.version: 1.14.5
+[DEBUG] mockito.version: 5.14.2
+[DEBUG] mongodb.version: 5.2.1
+[DEBUG] mssql-jdbc.version: 12.8.1.jre11
+[DEBUG] mysql.version: 9.1.0
+[DEBUG] native-build-tools-plugin.version: 0.10.6
+[DEBUG] native.encoding: Cp1252
+[DEBUG] nekohtml.version: 1.9.22
+[DEBUG] neo4j-java-driver.version: 5.28.3
+[DEBUG] netty.version: 4.1.119.Final
+[DEBUG] opentelemetry.version: 1.43.0
+[DEBUG] oracle-database.version: 23.5.0.24.07
+[DEBUG] oracle-r2dbc.version: 1.2.0
+[DEBUG] os.arch: amd64
+[DEBUG] os.name: Windows 11
+[DEBUG] os.version: 10.0
+[DEBUG] path.separator: ;
+[DEBUG] pooled-jms.version: 3.1.7
+[DEBUG] postgresql.version: 42.7.5
+[DEBUG] project.baseUri: file:/C:/Users/kmanu/OneDrive/Desktop/Anushka-Java/springAIDemo/SpringAIDemo/SpringAIDemo/
+[DEBUG] project.build.sourceEncoding: UTF-8
+[DEBUG] project.reporting.outputEncoding: UTF-8
+[DEBUG] prometheus-client.version: 1.3.6
+[DEBUG] prometheus-simpleclient.version: 0.16.0
+[DEBUG] pulsar-reactive.version: 0.5.10
+[DEBUG] pulsar.version: 3.3.5
+[DEBUG] quartz.version: 2.3.2
+[DEBUG] querydsl.version: 5.1.0
+[DEBUG] r2dbc-h2.version: 1.0.0.RELEASE
+[DEBUG] r2dbc-mariadb.version: 1.2.2
+[DEBUG] r2dbc-mssql.version: 1.0.2.RELEASE
+[DEBUG] r2dbc-mysql.version: 1.3.2
+[DEBUG] r2dbc-pool.version: 1.0.2.RELEASE
+[DEBUG] r2dbc-postgresql.version: 1.0.7.RELEASE
+[DEBUG] r2dbc-proxy.version: 1.1.5.RELEASE
+[DEBUG] r2dbc-spi.version: 1.0.0.RELEASE
+[DEBUG] rabbit-amqp-client.version: 5.22.0
+[DEBUG] rabbit-stream-client.version: 0.18.0
+[DEBUG] reactive-streams.version: 1.0.4
+[DEBUG] reactor-bom.version: 2024.0.4
+[DEBUG] resource.delimiter: @
+[DEBUG] rest-assured.version: 5.5.1
+[DEBUG] rsocket.version: 1.1.5
+[DEBUG] rxjava3.version: 3.1.10
+[DEBUG] saaj-impl.version: 3.0.4
+[DEBUG] selenium-htmlunit.version: 4.25.0
+[DEBUG] selenium.version: 4.25.0
+[DEBUG] sendgrid.version: 4.10.3
+[DEBUG] slf4j.version: 2.0.17
+[DEBUG] snakeyaml.version: 2.3
+[DEBUG] spring-ai.version: 1.0.0-M6
+[DEBUG] spring-amqp.version: 3.2.4
+[DEBUG] spring-authorization-server.version: 1.4.2
+[DEBUG] spring-batch.version: 5.2.2
+[DEBUG] spring-boot.run.main-class: ${start-class}
+[DEBUG] spring-data-bom.version: 2024.1.4
+[DEBUG] spring-framework.version: 6.2.5
+[DEBUG] spring-graphql.version: 1.3.4
+[DEBUG] spring-hateoas.version: 2.4.1
+[DEBUG] spring-integration.version: 6.4.3
+[DEBUG] spring-kafka.version: 3.3.4
+[DEBUG] spring-ldap.version: 3.2.11
+[DEBUG] spring-pulsar.version: 1.2.4
+[DEBUG] spring-restdocs.version: 3.0.3
+[DEBUG] spring-retry.version: 2.0.11
+[DEBUG] spring-security.version: 6.4.4
+[DEBUG] spring-session.version: 3.4.2
+[DEBUG] spring-ws.version: 4.0.12
+[DEBUG] sqlite-jdbc.version: 3.47.2.0
+[DEBUG] stderr.encoding: Cp1252
+[DEBUG] stdout.encoding: Cp1252
+[DEBUG] sun.arch.data.model: 64
+[DEBUG] sun.boot.library.path: C:\Program Files\Java\jdk-21\bin
+[DEBUG] sun.cpu.endian: little
+[DEBUG] sun.cpu.isalist: amd64
+[DEBUG] sun.io.unicode.encoding: UnicodeLittle
+[DEBUG] sun.java.command: org.codehaus.plexus.classworlds.launcher.Launcher clean spring-boot:run -X
+[DEBUG] sun.java.launcher: SUN_STANDARD
+[DEBUG] sun.jnu.encoding: Cp1252
+[DEBUG] sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+[DEBUG] sun.os.patch.level: 
+[DEBUG] testcontainers-redis-module.version: 2.2.4
+[DEBUG] testcontainers.version: 1.20.6
+[DEBUG] thymeleaf-extras-data-attribute.version: 2.0.1
+[DEBUG] thymeleaf-extras-springsecurity.version: 3.1.3.RELEASE
+[DEBUG] thymeleaf-layout-dialect.version: 3.3.0
+[DEBUG] thymeleaf.version: 3.1.3.RELEASE
+[DEBUG] tomcat.version: 10.1.39
+[DEBUG] unboundid-ldapsdk.version: 6.0.11
+[DEBUG] undertow.version: 2.3.18.Final
+[DEBUG] user.country: IN
+[DEBUG] user.dir: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo
+[DEBUG] user.home: C:\Users\kmanu
+[DEBUG] user.language: en
+[DEBUG] user.name: kmanu
+[DEBUG] user.script: 
+[DEBUG] user.variant: 
+[DEBUG] versions-maven-plugin.version: 2.17.1
+[DEBUG] webjars-locator-core.version: 0.59
+[DEBUG] webjars-locator-lite.version: 1.0.1
+[DEBUG] wsdl4j.version: 1.6.3
+[DEBUG] xml-maven-plugin.version: 1.1.0
+[DEBUG] xmlunit2.version: 2.10.0
+[DEBUG] yasson.version: 3.0.4
+[DEBUG] zipkin-reporter.version: 3.4.3
+[DEBUG] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] Using 'UTF-8' encoding to copy filtered properties files.
+[DEBUG] resource with targetPath null
+directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\main\resources
+excludes []
+includes [**/application*.yml, **/application*.yaml, **/application*.properties]
+[DEBUG] ignoreDelta true
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[DEBUG] Copying file application.properties
+[DEBUG] file application.properties has a filtered file extension
+[DEBUG] Using 'UTF-8' encoding to copy filtered resource 'application.properties'.
+[DEBUG] filtering C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\main\resources\application.properties to C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes\application.properties
+[DEBUG] resource with targetPath null
+directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\main\resources
+excludes [**/application*.yml, **/application*.yaml, **/application*.properties]
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[DEBUG] no user filter components
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ SpringAIDemo ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=101500, ConflictMarker.markTime=14600, ConflictMarker.nodeCount=22, ConflictIdSorter.graphTime=53500, ConflictIdSorter.topsortTime=10500, ConflictIdSorter.conflictIdCount=14, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=171600, ConflictResolver.conflictItemCount=22, DfDependencyCollector.collectTime=56375900, DfDependencyCollector.transformTime=363000}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.13.0
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.4.2:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]       commons-io:commons-io:jar:2.11.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:1.2.0:compile
+[DEBUG]       org.ow2.asm:asm:jar:9.6:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.15.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.15.0:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       org.codehaus.plexus:plexus-xml:jar:3.0.0:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.15.0:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:4.0.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.13.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.4.2
+[DEBUG]   Included: commons-io:commons-io:jar:2.11.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:1.2.0
+[DEBUG]   Included: org.ow2.asm:asm:jar:9.6
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.15.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.15.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-xml:jar:3.0.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.15.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:4.0.0
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile:default-compile' with basic configurator -->
+[DEBUG]   (f) annotationProcessorPathsUseDepMgmt = false
+[DEBUG]   (f) basedir = C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo
+[DEBUG]   (f) buildDirectory = C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target
+[DEBUG]   (f) compilePath = [C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes, C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.4.4\spring-boot-starter-web-3.4.4.jar, C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter\3.4.4\spring-boot-starter-3.4.4.jar, C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot\3.4.4\spring-boot-3.4.4.jar, C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.4.4\spring-boot-autoconfigure-3.4.4.jar, C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.4.4\spring-boot-starter-logging-3.4.4.jar, C:\Users\kmanu\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar, C:\Users\kmanu\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar, C:\Users\kmanu\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar, C:\Users\kmanu\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar, C:\Users\kmanu\.m2\repository\org\slf4j\jul-to-slf4j\2.0.17\jul-to-slf4j-2.0.17.jar, C:\Users\kmanu\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar, C:\Users\kmanu\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar, C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.4.4\spring-boot-starter-json-3.4.4.jar, C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar, C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar, C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar, C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.18.3\jackson-datatype-jdk8-2.18.3.jar, C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.3\jackson-datatype-jsr310-2.18.3.jar, C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.18.3\jackson-module-parameter-names-2.18.3.jar, C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.4.4\spring-boot-starter-tomcat-3.4.4.jar, C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.39\tomcat-embed-core-10.1.39.jar, C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.39\tomcat-embed-el-10.1.39.jar, C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.39\tomcat-embed-websocket-10.1.39.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-web\6.2.5\spring-web-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-beans\6.2.5\spring-beans-6.2.5.jar, C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-observation\1.14.5\micrometer-observation-1.14.5.jar, C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-commons\1.14.5\micrometer-commons-1.14.5.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-webmvc\6.2.5\spring-webmvc-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-aop\6.2.5\spring-aop-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-context\6.2.5\spring-context-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-expression\6.2.5\spring-expression-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-mistral-ai-spring-boot-starter\1.0.0-M6\spring-ai-mistral-ai-spring-boot-starter-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-spring-boot-autoconfigure\1.0.0-M6\spring-ai-spring-boot-autoconfigure-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-mistral-ai\1.0.0-M6\spring-ai-mistral-ai-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-core\1.0.0-M6\spring-ai-core-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\module\jackson-module-jsonSchema\2.18.3\jackson-module-jsonSchema-2.18.3.jar, C:\Users\kmanu\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar, C:\Users\kmanu\.m2\repository\io\swagger\core\v3\swagger-annotations\2.2.25\swagger-annotations-2.2.25.jar, C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-module-swagger-2\4.37.0\jsonschema-module-swagger-2-4.37.0.jar, C:\Users\kmanu\.m2\repository\org\antlr\ST4\4.3.4\ST4-4.3.4.jar, C:\Users\kmanu\.m2\repository\org\antlr\antlr-runtime\3.5.3\antlr-runtime-3.5.3.jar, C:\Users\kmanu\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar, C:\Users\kmanu\.m2\repository\io\projectreactor\reactor-core\3.7.4\reactor-core-3.7.4.jar, C:\Users\kmanu\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-messaging\6.2.5\spring-messaging-6.2.5.jar, C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-core\1.14.5\micrometer-core-1.14.5.jar, C:\Users\kmanu\.m2\repository\io\micrometer\context-propagation\1.1.2\context-propagation-1.1.2.jar, C:\Users\kmanu\.m2\repository\com\knuddels\jtokkit\1.1.0\jtokkit-1.1.0.jar, C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-generator\4.37.0\jsonschema-generator-4.37.0.jar, C:\Users\kmanu\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar, C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-module-jackson\4.37.0\jsonschema-module-jackson-4.37.0.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-retry\1.0.0-M6\spring-ai-retry-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\org\springframework\retry\spring-retry\2.0.11\spring-retry-2.0.11.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-webflux\6.2.5\spring-webflux-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-context-support\6.2.5\spring-context-support-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-ollama-spring-boot-starter\1.0.0-M6\spring-ai-ollama-spring-boot-starter-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-ollama\1.0.0-M6\spring-ai-ollama-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-stability-ai-spring-boot-starter\1.0.0-M6\spring-ai-stability-ai-spring-boot-starter-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-stability-ai\1.0.0-M6\spring-ai-stability-ai-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-core\6.2.5\spring-core-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-jcl\6.2.5\spring-jcl-6.2.5.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\main\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) createMissingPackageInfoClass = true
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) debugFileName = javac
+[DEBUG]   (f) enablePreview = false
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) fileExtensions = [jar, class]
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) forceLegacyJavacApi = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\generated-sources\annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes
+[DEBUG]   (f) parameters = true
+[DEBUG]   (f) project = MavenProject: com.springai:SpringAIDemo:0.0.1-SNAPSHOT @ C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\pom.xml
+[DEBUG]   (f) projectArtifact = com.springai:SpringAIDemo:jar:0.0.1-SNAPSHOT
+[DEBUG]   (s) release = 17
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@59cda16e
+[DEBUG]   (f) showCompilationChanges = false
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = true
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\generated-sources\annotations to compile source roots:
+  C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\main\java
+[DEBUG] New compile source roots:
+  C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\main\java
+  C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\generated-sources\annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] 	Stale source detected: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\main\java\com\springai\SpringAIDemo\SpringAiDemoApplication.java
+[INFO] 	Stale source detected: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\main\java\com\springai\SpringAIDemo\.java
+[INFO] 	Stale source detected: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\main\java\com\springai\SpringAIDemo\SpringAIChatController.java
+[INFO] 	Input tree files (+): C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\main\java\com\springai\SpringAIDemo\.java
+[INFO] 	Input tree files (+): C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\main\java\com\springai\SpringAIDemo\SpringAIChatController.java
+[INFO] 	Input tree files (+): C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\main\java\com\springai\SpringAIDemo\SpringAiDemoApplication.java
+[INFO] Recompiling the module because of changed source code.
+[DEBUG] Classpath:
+[DEBUG]  C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.4.4\spring-boot-starter-web-3.4.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter\3.4.4\spring-boot-starter-3.4.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot\3.4.4\spring-boot-3.4.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.4.4\spring-boot-autoconfigure-3.4.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.4.4\spring-boot-starter-logging-3.4.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\slf4j\jul-to-slf4j\2.0.17\jul-to-slf4j-2.0.17.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.4.4\spring-boot-starter-json-3.4.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.18.3\jackson-datatype-jdk8-2.18.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.3\jackson-datatype-jsr310-2.18.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.18.3\jackson-module-parameter-names-2.18.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.4.4\spring-boot-starter-tomcat-3.4.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.39\tomcat-embed-core-10.1.39.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.39\tomcat-embed-el-10.1.39.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.39\tomcat-embed-websocket-10.1.39.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-web\6.2.5\spring-web-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-beans\6.2.5\spring-beans-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-observation\1.14.5\micrometer-observation-1.14.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-commons\1.14.5\micrometer-commons-1.14.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-webmvc\6.2.5\spring-webmvc-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-aop\6.2.5\spring-aop-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-context\6.2.5\spring-context-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-expression\6.2.5\spring-expression-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-mistral-ai-spring-boot-starter\1.0.0-M6\spring-ai-mistral-ai-spring-boot-starter-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-spring-boot-autoconfigure\1.0.0-M6\spring-ai-spring-boot-autoconfigure-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-mistral-ai\1.0.0-M6\spring-ai-mistral-ai-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-core\1.0.0-M6\spring-ai-core-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\module\jackson-module-jsonSchema\2.18.3\jackson-module-jsonSchema-2.18.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\io\swagger\core\v3\swagger-annotations\2.2.25\swagger-annotations-2.2.25.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-module-swagger-2\4.37.0\jsonschema-module-swagger-2-4.37.0.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\antlr\ST4\4.3.4\ST4-4.3.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\antlr\antlr-runtime\3.5.3\antlr-runtime-3.5.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\io\projectreactor\reactor-core\3.7.4\reactor-core-3.7.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-messaging\6.2.5\spring-messaging-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-core\1.14.5\micrometer-core-1.14.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\io\micrometer\context-propagation\1.1.2\context-propagation-1.1.2.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\knuddels\jtokkit\1.1.0\jtokkit-1.1.0.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-generator\4.37.0\jsonschema-generator-4.37.0.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-module-jackson\4.37.0\jsonschema-module-jackson-4.37.0.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-retry\1.0.0-M6\spring-ai-retry-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\retry\spring-retry\2.0.11\spring-retry-2.0.11.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-webflux\6.2.5\spring-webflux-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-context-support\6.2.5\spring-context-support-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-ollama-spring-boot-starter\1.0.0-M6\spring-ai-ollama-spring-boot-starter-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-ollama\1.0.0-M6\spring-ai-ollama-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-stability-ai-spring-boot-starter\1.0.0-M6\spring-ai-stability-ai-spring-boot-starter-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-stability-ai\1.0.0-M6\spring-ai-stability-ai-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-core\6.2.5\spring-core-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-jcl\6.2.5\spring-jcl-6.2.5.jar
+[DEBUG] Source roots:
+[DEBUG]  C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\main\java
+[DEBUG]  C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\generated-sources\annotations
+[DEBUG] Command line options:
+[DEBUG] -d C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes -classpath C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.4.4\spring-boot-starter-web-3.4.4.jar;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter\3.4.4\spring-boot-starter-3.4.4.jar;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot\3.4.4\spring-boot-3.4.4.jar;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.4.4\spring-boot-autoconfigure-3.4.4.jar;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.4.4\spring-boot-starter-logging-3.4.4.jar;C:\Users\kmanu\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar;C:\Users\kmanu\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar;C:\Users\kmanu\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar;C:\Users\kmanu\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\kmanu\.m2\repository\org\slf4j\jul-to-slf4j\2.0.17\jul-to-slf4j-2.0.17.jar;C:\Users\kmanu\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\kmanu\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.4.4\spring-boot-starter-json-3.4.4.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.18.3\jackson-datatype-jdk8-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.3\jackson-datatype-jsr310-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.18.3\jackson-module-parameter-names-2.18.3.jar;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.4.4\spring-boot-starter-tomcat-3.4.4.jar;C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.39\tomcat-embed-core-10.1.39.jar;C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.39\tomcat-embed-el-10.1.39.jar;C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.39\tomcat-embed-websocket-10.1.39.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-web\6.2.5\spring-web-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-beans\6.2.5\spring-beans-6.2.5.jar;C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-observation\1.14.5\micrometer-observation-1.14.5.jar;C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-commons\1.14.5\micrometer-commons-1.14.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-webmvc\6.2.5\spring-webmvc-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-aop\6.2.5\spring-aop-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-context\6.2.5\spring-context-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-expression\6.2.5\spring-expression-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-mistral-ai-spring-boot-starter\1.0.0-M6\spring-ai-mistral-ai-spring-boot-starter-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-spring-boot-autoconfigure\1.0.0-M6\spring-ai-spring-boot-autoconfigure-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-mistral-ai\1.0.0-M6\spring-ai-mistral-ai-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-core\1.0.0-M6\spring-ai-core-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\module\jackson-module-jsonSchema\2.18.3\jackson-module-jsonSchema-2.18.3.jar;C:\Users\kmanu\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\kmanu\.m2\repository\io\swagger\core\v3\swagger-annotations\2.2.25\swagger-annotations-2.2.25.jar;C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-module-swagger-2\4.37.0\jsonschema-module-swagger-2-4.37.0.jar;C:\Users\kmanu\.m2\repository\org\antlr\ST4\4.3.4\ST4-4.3.4.jar;C:\Users\kmanu\.m2\repository\org\antlr\antlr-runtime\3.5.3\antlr-runtime-3.5.3.jar;C:\Users\kmanu\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\kmanu\.m2\repository\io\projectreactor\reactor-core\3.7.4\reactor-core-3.7.4.jar;C:\Users\kmanu\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-messaging\6.2.5\spring-messaging-6.2.5.jar;C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-core\1.14.5\micrometer-core-1.14.5.jar;C:\Users\kmanu\.m2\repository\io\micrometer\context-propagation\1.1.2\context-propagation-1.1.2.jar;C:\Users\kmanu\.m2\repository\com\knuddels\jtokkit\1.1.0\jtokkit-1.1.0.jar;C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-generator\4.37.0\jsonschema-generator-4.37.0.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-module-jackson\4.37.0\jsonschema-module-jackson-4.37.0.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-retry\1.0.0-M6\spring-ai-retry-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\retry\spring-retry\2.0.11\spring-retry-2.0.11.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-webflux\6.2.5\spring-webflux-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-context-support\6.2.5\spring-context-support-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-ollama-spring-boot-starter\1.0.0-M6\spring-ai-ollama-spring-boot-starter-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-ollama\1.0.0-M6\spring-ai-ollama-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-stability-ai-spring-boot-starter\1.0.0-M6\spring-ai-stability-ai-spring-boot-starter-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-stability-ai\1.0.0-M6\spring-ai-stability-ai-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-core\6.2.5\spring-core-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-jcl\6.2.5\spring-jcl-6.2.5.jar; -sourcepath C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\main\java;C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\generated-sources\annotations; -s C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\generated-sources\annotations -g -parameters --release 17 -encoding UTF-8 -XDuseUnsharedTable=true
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 3 source files with javac [debug parameters release 17] to target\classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ SpringAIDemo ---
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-resources-plugin:3.3.1:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-resources-plugin:3.3.1:testResources:default-testResources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (s) delimiters = [@]
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.springai:SpringAIDemo:0.0.1-SNAPSHOT @ C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\pom.xml
+[DEBUG]   (f) propertiesEncoding = UTF-8
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\test\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@59cda16e
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = false
+[DEBUG] -- end configuration --
+[DEBUG] properties used:
+[DEBUG] activemq.version: 6.1.6
+[DEBUG] angus-mail.version: 2.0.3
+[DEBUG] artemis.version: 2.37.0
+[DEBUG] aspectj.version: 1.9.23
+[DEBUG] assertj.version: 3.26.3
+[DEBUG] awaitility.version: 4.2.2
+[DEBUG] brave.version: 6.0.3
+[DEBUG] build-helper-maven-plugin.version: 3.6.0
+[DEBUG] byte-buddy.version: 1.15.11
+[DEBUG] cache2k.version: 2.6.1.Final
+[DEBUG] caffeine.version: 3.1.8
+[DEBUG] cassandra-driver.version: 4.18.1
+[DEBUG] classmate.version: 1.7.0
+[DEBUG] classworlds.conf: C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c\bin\m2.conf
+[DEBUG] commons-codec.version: 1.17.2
+[DEBUG] commons-dbcp2.version: 2.12.0
+[DEBUG] commons-lang3.version: 3.17.0
+[DEBUG] commons-pool.version: 1.6
+[DEBUG] commons-pool2.version: 2.12.1
+[DEBUG] couchbase-client.version: 3.7.8
+[DEBUG] crac.version: 1.5.0
+[DEBUG] cyclonedx-maven-plugin.version: 2.9.1
+[DEBUG] db2-jdbc.version: 11.5.9.0
+[DEBUG] dependency-management-plugin.version: 1.1.7
+[DEBUG] derby.version: 10.16.1.1
+[DEBUG] ehcache3.version: 3.10.8
+[DEBUG] elasticsearch-client.version: 8.15.5
+[DEBUG] env.=::: ::\
+[DEBUG] env.=C:: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo
+[DEBUG] env.ALLUSERSPROFILE: C:\ProgramData
+[DEBUG] env.APPDATA: C:\Users\kmanu\AppData\Roaming
+[DEBUG] env.CLASSWORLDS_JAR: "C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c\boot\plexus-classworlds-2.8.0.jar"
+[DEBUG] env.CLASSWORLDS_LAUNCHER: org.codehaus.plexus.classworlds.launcher.Launcher
+[DEBUG] env.COMMONPROGRAMFILES: C:\Program Files\Common Files
+[DEBUG] env.COMMONPROGRAMFILES(X86): C:\Program Files (x86)\Common Files
+[DEBUG] env.COMMONPROGRAMW6432: C:\Program Files\Common Files
+[DEBUG] env.COMPUTERNAME: ANUSHKASRI
+[DEBUG] env.COMSPEC: C:\windows\System32\cmd.exe
+[DEBUG] env.DRIVERDATA: C:\Windows\System32\Drivers\DriverData
+[DEBUG] env.ECLIPSE_HOME: C:\Users\kmanu\eclipse\java-2024-03\eclipse
+[DEBUG] env.ECLIPSE_WORKSPACE: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo
+[DEBUG] env.EFC_14420: 1
+[DEBUG] env.ERROR_CODE: 0
+[DEBUG] env.EXEC_DIR: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo
+[DEBUG] env.FPS_BROWSER_APP_PROFILE_STRING: Internet Explorer
+[DEBUG] env.FPS_BROWSER_USER_PROFILE_STRING: Default
+[DEBUG] env.HOMEDRIVE: C:
+[DEBUG] env.HOMEPATH: \Users\kmanu
+[DEBUG] env.IGCCSVC_DB: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAHxoDdwEpPkSVvWPE1S2ncQQAAAACAAAAAAAQZgAAAAEAACAAAADGNWL8dbx2ceLLRaXKT99b8szZjs7sEAuPO5hUwQIm0AAAAAAOgAAAAAIAACAAAAAv12tP5pM+avbciqHzIPSlx/hQ6T9xgbeGtLSW7OP/mmAAAADeWPYFxCloGGajN0hecei9efpauAGS+tWqLsQ/crPA5Xz/F1AdY3hS89c/58MwgxetJzGmcymi9pa0i3e3NV+T2EeNN5WUomeN1a4ExHGm1uCgw2pocIF2Xa8D1jZ/mztAAAAAuNHgeE+V7PRSj85rbFXPMk6uvkN89Z4ymf5mb9sFVRPQEMuC7XdYxVDufa2gFMu8f57my0SVitHp5pnwzQ4uog==
+[DEBUG] env.INTELLIJ IDEA: C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.1\bin;
+[DEBUG] env.JAVACMD: C:\Program Files\Java\jdk-21\bin\java.exe
+[DEBUG] env.JAVA_HOME: C:\Program Files\Java\jdk-21
+[DEBUG] env.JVMCONFIG: \.mvn\jvm.config
+[DEBUG] env.LOCALAPPDATA: C:\Users\kmanu\AppData\Local
+[DEBUG] env.LOGONSERVER: \\ANUSHKASRI
+[DEBUG] env.MAVEN_CMD_LINE_ARGS: clean spring-boot:run -X
+[DEBUG] env.MAVEN_HOME: C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c
+[DEBUG] env.MAVEN_PROJECTBASEDIR: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo
+[DEBUG] env.MINGW: C:\msys64\ucrt64\bin
+[DEBUG] env.NINJA: C:\Tools\ninja-win
+[DEBUG] env.NUMBER_OF_PROCESSORS: 12
+[DEBUG] env.NVM_HOME: C:\Users\kmanu\AppData\Local\nvm
+[DEBUG] env.NVM_SYMLINK: C:\nvm4w\nodejs
+[DEBUG] env.ONEDRIVE: C:\Users\kmanu\OneDrive
+[DEBUG] env.ONLINESERVICES: Online Services
+[DEBUG] env.OS: Windows_NT
+[DEBUG] env.PATH: C:/Users/kmanu/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830/jre/bin/server;C:/Users/kmanu/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\msys64\ucrt64\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\HP\HP One Agent;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Tools\ninja-win;C:\Users\kmanu\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\kmanu\anaconda3;C:\Users\kmanu\anaconda3\Library\mingw-w64\bin;C:\Users\kmanu\anaconda3\Library\usr\bin;C:\Users\kmanu\anaconda3\Library\bin;C:\Users\kmanu\anaconda3\Scripts;C:\Users\kmanu\AppData\Local\Microsoft\WindowsApps;C:\Users\kmanu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.1\bin;;C:\Users\kmanu\.dotnet\tools;C:\Users\kmanu\AppData\Local\GitHubDesktop\bin;C:\Users\kmanu\AppData\Roaming\npm;C:\Users\kmanu\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\kmanu\AppData\Local\Programs\Ollama;C:\Program Files\apache-maven-3.9.9\bin;;C:\windows\System32;
+[DEBUG] env.PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+[DEBUG] env.PLATFORMCODE: M7
+[DEBUG] env.PROCESSOR_ARCHITECTURE: AMD64
+[DEBUG] env.PROCESSOR_IDENTIFIER: Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+[DEBUG] env.PROCESSOR_LEVEL: 6
+[DEBUG] env.PROCESSOR_REVISION: 9a03
+[DEBUG] env.PROGRAMDATA: C:\ProgramData
+[DEBUG] env.PROGRAMFILES: C:\Program Files
+[DEBUG] env.PROGRAMFILES(X86): C:\Program Files (x86)
+[DEBUG] env.PROGRAMW6432: C:\Program Files
+[DEBUG] env.PROMPT: $P$G
+[DEBUG] env.PSMODULEPATH: C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+[DEBUG] env.PUBLIC: C:\Users\Public
+[DEBUG] env.REGIONCODE: APJ
+[DEBUG] env.SESSIONNAME: Console
+[DEBUG] env.SYSTEMDRIVE: C:
+[DEBUG] env.SYSTEMROOT: C:\windows
+[DEBUG] env.TEMP: C:\Users\kmanu\AppData\Local\Temp
+[DEBUG] env.TERM: xterm
+[DEBUG] env.TMP: C:\Users\kmanu\AppData\Local\Temp
+[DEBUG] env.USERDOMAIN: ANUSHKASRI
+[DEBUG] env.USERDOMAIN_ROAMINGPROFILE: ANUSHKASRI
+[DEBUG] env.USERNAME: kmanu
+[DEBUG] env.USERPROFILE: C:\Users\kmanu
+[DEBUG] env.VBOX_MSI_INSTALL_PATH: C:\Program Files\Oracle\VirtualBox\
+[DEBUG] env.WDIR: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo
+[DEBUG] env.WINDIR: C:\windows
+[DEBUG] env.ZES_ENABLE_SYSMAN: 1
+[DEBUG] env.__MVNW_CMD__: C:\Users\kmanu/.m2/wrapper/dists/apache-maven-3.9.9/977a63e90f436cd6ade95b4c0e10c20c/bin/mvn.cmd
+[DEBUG] file.encoding: UTF-8
+[DEBUG] file.separator: \
+[DEBUG] flyway.version: 10.20.1
+[DEBUG] freemarker.version: 2.3.34
+[DEBUG] git-commit-id-maven-plugin.version: 9.0.1
+[DEBUG] glassfish-jaxb.version: 4.0.5
+[DEBUG] glassfish-jstl.version: 3.0.1
+[DEBUG] graphql-java.version: 22.3
+[DEBUG] groovy.version: 4.0.26
+[DEBUG] gson.version: 2.11.0
+[DEBUG] h2.version: 2.3.232
+[DEBUG] hamcrest.version: 2.2
+[DEBUG] hazelcast.version: 5.5.0
+[DEBUG] hibernate-validator.version: 8.0.2.Final
+[DEBUG] hibernate.version: 6.6.11.Final
+[DEBUG] hikaricp.version: 5.1.0
+[DEBUG] hsqldb.version: 2.7.3
+[DEBUG] htmlunit.version: 4.5.0
+[DEBUG] httpasyncclient.version: 4.1.5
+[DEBUG] httpclient5.version: 5.4.2
+[DEBUG] httpcore.version: 4.4.16
+[DEBUG] httpcore5.version: 5.3.3
+[DEBUG] infinispan.version: 15.0.14.Final
+[DEBUG] influxdb-java.version: 2.24
+[DEBUG] jackson-bom.version: 2.18.3
+[DEBUG] jakarta-activation.version: 2.1.3
+[DEBUG] jakarta-annotation.version: 2.1.1
+[DEBUG] jakarta-inject.version: 2.0.1
+[DEBUG] jakarta-jms.version: 3.1.0
+[DEBUG] jakarta-json-bind.version: 3.0.1
+[DEBUG] jakarta-json.version: 2.1.3
+[DEBUG] jakarta-mail.version: 2.1.3
+[DEBUG] jakarta-management.version: 1.1.4
+[DEBUG] jakarta-persistence.version: 3.1.0
+[DEBUG] jakarta-servlet-jsp-jstl.version: 3.0.2
+[DEBUG] jakarta-servlet.version: 6.0.0
+[DEBUG] jakarta-transaction.version: 2.0.1
+[DEBUG] jakarta-validation.version: 3.0.2
+[DEBUG] jakarta-websocket.version: 2.1.1
+[DEBUG] jakarta-ws-rs.version: 3.1.0
+[DEBUG] jakarta-xml-bind.version: 4.0.2
+[DEBUG] jakarta-xml-soap.version: 3.0.2
+[DEBUG] jakarta-xml-ws.version: 4.0.2
+[DEBUG] janino.version: 3.1.12
+[DEBUG] java.class.path: C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c\boot\plexus-classworlds-2.8.0.jar
+[DEBUG] java.class.version: 65.0
+[DEBUG] java.home: C:\Program Files\Java\jdk-21
+[DEBUG] java.io.tmpdir: C:\Users\kmanu\AppData\Local\Temp\
+[DEBUG] java.library.path: C:\Program Files\Java\jdk-21\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Users/kmanu/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830/jre/bin/server;C:/Users/kmanu/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\msys64\ucrt64\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\HP\HP One Agent;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Tools\ninja-win;C:\Users\kmanu\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\kmanu\anaconda3;C:\Users\kmanu\anaconda3\Library\mingw-w64\bin;C:\Users\kmanu\anaconda3\Library\usr\bin;C:\Users\kmanu\anaconda3\Library\bin;C:\Users\kmanu\anaconda3\Scripts;C:\Users\kmanu\AppData\Local\Microsoft\WindowsApps;C:\Users\kmanu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.1\bin;;C:\Users\kmanu\.dotnet\tools;C:\Users\kmanu\AppData\Local\GitHubDesktop\bin;C:\Users\kmanu\AppData\Roaming\npm;C:\Users\kmanu\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\kmanu\AppData\Local\Programs\Ollama;C:\Program Files\apache-maven-3.9.9\bin;;C:\windows\System32;;.
+[DEBUG] java.runtime.name: Java(TM) SE Runtime Environment
+[DEBUG] java.runtime.version: 21.0.6+8-LTS-188
+[DEBUG] java.specification.name: Java Platform API Specification
+[DEBUG] java.specification.vendor: Oracle Corporation
+[DEBUG] java.specification.version: 21
+[DEBUG] java.vendor: Oracle Corporation
+[DEBUG] java.vendor.url: https://java.oracle.com/
+[DEBUG] java.vendor.url.bug: https://bugreport.java.com/bugreport/
+[DEBUG] java.version: 21.0.6
+[DEBUG] java.version.date: 2025-01-21
+[DEBUG] java.vm.compressedOopsMode: 32-bit
+[DEBUG] java.vm.info: mixed mode, sharing
+[DEBUG] java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+[DEBUG] java.vm.specification.name: Java Virtual Machine Specification
+[DEBUG] java.vm.specification.vendor: Oracle Corporation
+[DEBUG] java.vm.specification.version: 21
+[DEBUG] java.vm.vendor: Oracle Corporation
+[DEBUG] java.vm.version: 21.0.6+8-LTS-188
+[DEBUG] javax-cache.version: 1.1.1
+[DEBUG] javax-money.version: 1.1
+[DEBUG] jaxen.version: 2.0.0
+[DEBUG] jaybird.version: 5.0.6.java11
+[DEBUG] jboss-logging.version: 3.6.1.Final
+[DEBUG] jdk.debug: release
+[DEBUG] jdom2.version: 2.0.6.1
+[DEBUG] jedis.version: 5.2.0
+[DEBUG] jersey.version: 3.1.10
+[DEBUG] jetty-reactive-httpclient.version: 4.0.9
+[DEBUG] jetty.version: 12.0.18
+[DEBUG] jmustache.version: 1.16
+[DEBUG] jooq.version: 3.19.21
+[DEBUG] json-path.version: 2.9.0
+[DEBUG] json-smart.version: 2.5.2
+[DEBUG] jsonassert.version: 1.5.3
+[DEBUG] jtds.version: 1.3.1
+[DEBUG] junit-jupiter.version: 5.11.4
+[DEBUG] junit.version: 4.13.2
+[DEBUG] kafka.version: 3.8.1
+[DEBUG] kotlin-coroutines.version: 1.8.1
+[DEBUG] kotlin-serialization.version: 1.6.3
+[DEBUG] kotlin.version: 1.9.25
+[DEBUG] lettuce.version: 6.4.2.RELEASE
+[DEBUG] library.jansi.path: C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c\lib\jansi-native
+[DEBUG] line.separator: 
+
+[DEBUG] liquibase.version: 4.29.2
+[DEBUG] log4j2.version: 2.24.3
+[DEBUG] logback.version: 1.5.18
+[DEBUG] lombok.version: 1.18.36
+[DEBUG] mariadb.version: 3.4.1
+[DEBUG] maven-antrun-plugin.version: 3.1.0
+[DEBUG] maven-assembly-plugin.version: 3.7.1
+[DEBUG] maven-clean-plugin.version: 3.4.1
+[DEBUG] maven-compiler-plugin.version: 3.13.0
+[DEBUG] maven-dependency-plugin.version: 3.8.1
+[DEBUG] maven-deploy-plugin.version: 3.1.4
+[DEBUG] maven-enforcer-plugin.version: 3.5.0
+[DEBUG] maven-failsafe-plugin.version: 3.5.2
+[DEBUG] maven-help-plugin.version: 3.5.1
+[DEBUG] maven-install-plugin.version: 3.1.4
+[DEBUG] maven-invoker-plugin.version: 3.8.1
+[DEBUG] maven-jar-plugin.version: 3.4.2
+[DEBUG] maven-javadoc-plugin.version: 3.10.1
+[DEBUG] maven-resources-plugin.version: 3.3.1
+[DEBUG] maven-shade-plugin.version: 3.6.0
+[DEBUG] maven-source-plugin.version: 3.3.1
+[DEBUG] maven-surefire-plugin.version: 3.5.2
+[DEBUG] maven-war-plugin.version: 3.4.0
+[DEBUG] maven.build.timestamp: 2025-04-23T16:33:47Z
+[DEBUG] maven.build.version: Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+[DEBUG] maven.compiler.release: 17
+[DEBUG] maven.conf: C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c/conf
+[DEBUG] maven.home: C:\Users\kmanu\.m2\wrapper\dists\apache-maven-3.9.9\977a63e90f436cd6ade95b4c0e10c20c
+[DEBUG] maven.multiModuleProjectDirectory: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo
+[DEBUG] maven.version: 3.9.9
+[DEBUG] micrometer-tracing.version: 1.4.4
+[DEBUG] micrometer.version: 1.14.5
+[DEBUG] mockito.version: 5.14.2
+[DEBUG] mongodb.version: 5.2.1
+[DEBUG] mssql-jdbc.version: 12.8.1.jre11
+[DEBUG] mysql.version: 9.1.0
+[DEBUG] native-build-tools-plugin.version: 0.10.6
+[DEBUG] native.encoding: Cp1252
+[DEBUG] nekohtml.version: 1.9.22
+[DEBUG] neo4j-java-driver.version: 5.28.3
+[DEBUG] netty.version: 4.1.119.Final
+[DEBUG] opentelemetry.version: 1.43.0
+[DEBUG] oracle-database.version: 23.5.0.24.07
+[DEBUG] oracle-r2dbc.version: 1.2.0
+[DEBUG] os.arch: amd64
+[DEBUG] os.name: Windows 11
+[DEBUG] os.version: 10.0
+[DEBUG] path.separator: ;
+[DEBUG] pooled-jms.version: 3.1.7
+[DEBUG] postgresql.version: 42.7.5
+[DEBUG] project.baseUri: file:/C:/Users/kmanu/OneDrive/Desktop/Anushka-Java/springAIDemo/SpringAIDemo/SpringAIDemo/
+[DEBUG] project.build.sourceEncoding: UTF-8
+[DEBUG] project.reporting.outputEncoding: UTF-8
+[DEBUG] prometheus-client.version: 1.3.6
+[DEBUG] prometheus-simpleclient.version: 0.16.0
+[DEBUG] pulsar-reactive.version: 0.5.10
+[DEBUG] pulsar.version: 3.3.5
+[DEBUG] quartz.version: 2.3.2
+[DEBUG] querydsl.version: 5.1.0
+[DEBUG] r2dbc-h2.version: 1.0.0.RELEASE
+[DEBUG] r2dbc-mariadb.version: 1.2.2
+[DEBUG] r2dbc-mssql.version: 1.0.2.RELEASE
+[DEBUG] r2dbc-mysql.version: 1.3.2
+[DEBUG] r2dbc-pool.version: 1.0.2.RELEASE
+[DEBUG] r2dbc-postgresql.version: 1.0.7.RELEASE
+[DEBUG] r2dbc-proxy.version: 1.1.5.RELEASE
+[DEBUG] r2dbc-spi.version: 1.0.0.RELEASE
+[DEBUG] rabbit-amqp-client.version: 5.22.0
+[DEBUG] rabbit-stream-client.version: 0.18.0
+[DEBUG] reactive-streams.version: 1.0.4
+[DEBUG] reactor-bom.version: 2024.0.4
+[DEBUG] resource.delimiter: @
+[DEBUG] rest-assured.version: 5.5.1
+[DEBUG] rsocket.version: 1.1.5
+[DEBUG] rxjava3.version: 3.1.10
+[DEBUG] saaj-impl.version: 3.0.4
+[DEBUG] selenium-htmlunit.version: 4.25.0
+[DEBUG] selenium.version: 4.25.0
+[DEBUG] sendgrid.version: 4.10.3
+[DEBUG] slf4j.version: 2.0.17
+[DEBUG] snakeyaml.version: 2.3
+[DEBUG] spring-ai.version: 1.0.0-M6
+[DEBUG] spring-amqp.version: 3.2.4
+[DEBUG] spring-authorization-server.version: 1.4.2
+[DEBUG] spring-batch.version: 5.2.2
+[DEBUG] spring-boot.run.main-class: ${start-class}
+[DEBUG] spring-data-bom.version: 2024.1.4
+[DEBUG] spring-framework.version: 6.2.5
+[DEBUG] spring-graphql.version: 1.3.4
+[DEBUG] spring-hateoas.version: 2.4.1
+[DEBUG] spring-integration.version: 6.4.3
+[DEBUG] spring-kafka.version: 3.3.4
+[DEBUG] spring-ldap.version: 3.2.11
+[DEBUG] spring-pulsar.version: 1.2.4
+[DEBUG] spring-restdocs.version: 3.0.3
+[DEBUG] spring-retry.version: 2.0.11
+[DEBUG] spring-security.version: 6.4.4
+[DEBUG] spring-session.version: 3.4.2
+[DEBUG] spring-ws.version: 4.0.12
+[DEBUG] sqlite-jdbc.version: 3.47.2.0
+[DEBUG] stderr.encoding: Cp1252
+[DEBUG] stdout.encoding: Cp1252
+[DEBUG] sun.arch.data.model: 64
+[DEBUG] sun.boot.library.path: C:\Program Files\Java\jdk-21\bin
+[DEBUG] sun.cpu.endian: little
+[DEBUG] sun.cpu.isalist: amd64
+[DEBUG] sun.io.unicode.encoding: UnicodeLittle
+[DEBUG] sun.java.command: org.codehaus.plexus.classworlds.launcher.Launcher clean spring-boot:run -X
+[DEBUG] sun.java.launcher: SUN_STANDARD
+[DEBUG] sun.jnu.encoding: Cp1252
+[DEBUG] sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+[DEBUG] sun.os.patch.level: 
+[DEBUG] testcontainers-redis-module.version: 2.2.4
+[DEBUG] testcontainers.version: 1.20.6
+[DEBUG] thymeleaf-extras-data-attribute.version: 2.0.1
+[DEBUG] thymeleaf-extras-springsecurity.version: 3.1.3.RELEASE
+[DEBUG] thymeleaf-layout-dialect.version: 3.3.0
+[DEBUG] thymeleaf.version: 3.1.3.RELEASE
+[DEBUG] tomcat.version: 10.1.39
+[DEBUG] unboundid-ldapsdk.version: 6.0.11
+[DEBUG] undertow.version: 2.3.18.Final
+[DEBUG] user.country: IN
+[DEBUG] user.dir: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo
+[DEBUG] user.home: C:\Users\kmanu
+[DEBUG] user.language: en
+[DEBUG] user.name: kmanu
+[DEBUG] user.script: 
+[DEBUG] user.variant: 
+[DEBUG] versions-maven-plugin.version: 2.17.1
+[DEBUG] webjars-locator-core.version: 0.59
+[DEBUG] webjars-locator-lite.version: 1.0.1
+[DEBUG] wsdl4j.version: 1.6.3
+[DEBUG] xml-maven-plugin.version: 1.1.0
+[DEBUG] xmlunit2.version: 2.10.0
+[DEBUG] yasson.version: 3.0.4
+[DEBUG] zipkin-reporter.version: 3.4.3
+[DEBUG] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] Using 'UTF-8' encoding to copy filtered properties files.
+[DEBUG] resource with targetPath null
+directory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\test\resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\test\resources
+[DEBUG] no user filter components
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ SpringAIDemo ---
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-compiler-plugin:3.13.0:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-compiler-plugin:3.13.0:testCompile:default-testCompile' with basic configurator -->
+[DEBUG]   (f) annotationProcessorPathsUseDepMgmt = false
+[DEBUG]   (f) basedir = C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo
+[DEBUG]   (f) buildDirectory = C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target
+[DEBUG]   (f) compileSourceRoots = [C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\test\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) createMissingPackageInfoClass = true
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) debugFileName = javac-test
+[DEBUG]   (f) enablePreview = false
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) fileExtensions = [jar, class]
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) forceLegacyJavacApi = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\generated-test-sources\test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.13.0:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\test-classes
+[DEBUG]   (f) parameters = true
+[DEBUG]   (f) project = MavenProject: com.springai:SpringAIDemo:0.0.1-SNAPSHOT @ C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\pom.xml
+[DEBUG]   (s) release = 17
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@59cda16e
+[DEBUG]   (f) showCompilationChanges = false
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = true
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 1.8
+[DEBUG]   (f) testPath = [C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\test-classes, C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes, C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.4.4\spring-boot-starter-web-3.4.4.jar, C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter\3.4.4\spring-boot-starter-3.4.4.jar, C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot\3.4.4\spring-boot-3.4.4.jar, C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.4.4\spring-boot-autoconfigure-3.4.4.jar, C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.4.4\spring-boot-starter-logging-3.4.4.jar, C:\Users\kmanu\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar, C:\Users\kmanu\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar, C:\Users\kmanu\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar, C:\Users\kmanu\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar, C:\Users\kmanu\.m2\repository\org\slf4j\jul-to-slf4j\2.0.17\jul-to-slf4j-2.0.17.jar, C:\Users\kmanu\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar, C:\Users\kmanu\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar, C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.4.4\spring-boot-starter-json-3.4.4.jar, C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar, C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar, C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar, C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.18.3\jackson-datatype-jdk8-2.18.3.jar, C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.3\jackson-datatype-jsr310-2.18.3.jar, C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.18.3\jackson-module-parameter-names-2.18.3.jar, C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.4.4\spring-boot-starter-tomcat-3.4.4.jar, C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.39\tomcat-embed-core-10.1.39.jar, C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.39\tomcat-embed-el-10.1.39.jar, C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.39\tomcat-embed-websocket-10.1.39.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-web\6.2.5\spring-web-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-beans\6.2.5\spring-beans-6.2.5.jar, C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-observation\1.14.5\micrometer-observation-1.14.5.jar, C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-commons\1.14.5\micrometer-commons-1.14.5.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-webmvc\6.2.5\spring-webmvc-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-aop\6.2.5\spring-aop-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-context\6.2.5\spring-context-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-expression\6.2.5\spring-expression-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-mistral-ai-spring-boot-starter\1.0.0-M6\spring-ai-mistral-ai-spring-boot-starter-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-spring-boot-autoconfigure\1.0.0-M6\spring-ai-spring-boot-autoconfigure-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-mistral-ai\1.0.0-M6\spring-ai-mistral-ai-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-core\1.0.0-M6\spring-ai-core-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\module\jackson-module-jsonSchema\2.18.3\jackson-module-jsonSchema-2.18.3.jar, C:\Users\kmanu\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar, C:\Users\kmanu\.m2\repository\io\swagger\core\v3\swagger-annotations\2.2.25\swagger-annotations-2.2.25.jar, C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-module-swagger-2\4.37.0\jsonschema-module-swagger-2-4.37.0.jar, C:\Users\kmanu\.m2\repository\org\antlr\ST4\4.3.4\ST4-4.3.4.jar, C:\Users\kmanu\.m2\repository\org\antlr\antlr-runtime\3.5.3\antlr-runtime-3.5.3.jar, C:\Users\kmanu\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar, C:\Users\kmanu\.m2\repository\io\projectreactor\reactor-core\3.7.4\reactor-core-3.7.4.jar, C:\Users\kmanu\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-messaging\6.2.5\spring-messaging-6.2.5.jar, C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-core\1.14.5\micrometer-core-1.14.5.jar, C:\Users\kmanu\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.2\HdrHistogram-2.2.2.jar, C:\Users\kmanu\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar, C:\Users\kmanu\.m2\repository\io\micrometer\context-propagation\1.1.2\context-propagation-1.1.2.jar, C:\Users\kmanu\.m2\repository\com\knuddels\jtokkit\1.1.0\jtokkit-1.1.0.jar, C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-generator\4.37.0\jsonschema-generator-4.37.0.jar, C:\Users\kmanu\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar, C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-module-jackson\4.37.0\jsonschema-module-jackson-4.37.0.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-retry\1.0.0-M6\spring-ai-retry-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\org\springframework\retry\spring-retry\2.0.11\spring-retry-2.0.11.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-webflux\6.2.5\spring-webflux-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-context-support\6.2.5\spring-context-support-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-ollama-spring-boot-starter\1.0.0-M6\spring-ai-ollama-spring-boot-starter-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-ollama\1.0.0-M6\spring-ai-ollama-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-stability-ai-spring-boot-starter\1.0.0-M6\spring-ai-stability-ai-spring-boot-starter-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-stability-ai\1.0.0-M6\spring-ai-stability-ai-1.0.0-M6.jar, C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.4.4\spring-boot-starter-test-3.4.4.jar, C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-test\3.4.4\spring-boot-test-3.4.4.jar, C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.4.4\spring-boot-test-autoconfigure-3.4.4.jar, C:\Users\kmanu\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar, C:\Users\kmanu\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar, C:\Users\kmanu\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar, C:\Users\kmanu\.m2\repository\net\minidev\json-smart\2.5.2\json-smart-2.5.2.jar, C:\Users\kmanu\.m2\repository\net\minidev\accessors-smart\2.5.2\accessors-smart-2.5.2.jar, C:\Users\kmanu\.m2\repository\org\ow2\asm\asm\9.7.1\asm-9.7.1.jar, C:\Users\kmanu\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar, C:\Users\kmanu\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar, C:\Users\kmanu\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar, C:\Users\kmanu\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar, C:\Users\kmanu\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar, C:\Users\kmanu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar, C:\Users\kmanu\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar, C:\Users\kmanu\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar, C:\Users\kmanu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar, C:\Users\kmanu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar, C:\Users\kmanu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar, C:\Users\kmanu\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar, C:\Users\kmanu\.m2\repository\org\mockito\mockito-core\5.14.2\mockito-core-5.14.2.jar, C:\Users\kmanu\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.11\byte-buddy-agent-1.15.11.jar, C:\Users\kmanu\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar, C:\Users\kmanu\.m2\repository\org\mockito\mockito-junit-jupiter\5.14.2\mockito-junit-jupiter-5.14.2.jar, C:\Users\kmanu\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar, C:\Users\kmanu\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-core\6.2.5\spring-core-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-jcl\6.2.5\spring-jcl-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\springframework\spring-test\6.2.5\spring-test-6.2.5.jar, C:\Users\kmanu\.m2\repository\org\xmlunit\xmlunit-core\2.10.0\xmlunit-core-2.10.0.jar]
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) useModulePath = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\generated-test-sources\test-annotations to test-compile source roots:
+  C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\test\java
+[DEBUG] New test-compile source roots:
+  C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\test\java
+  C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\generated-test-sources\test-annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] 	New dependency detected: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes\com\springai\SpringAIDemo\ChatbotController.class
+[INFO] 	Stale source detected: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\test\java\com\springai\SpringAIDemo\SpringAiDemoApplicationTests.java
+[INFO] 	Input tree files (+): C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\test\java\com\springai\SpringAIDemo\SpringAiDemoApplicationTests.java
+[INFO] Recompiling the module because of changed dependency.
+[DEBUG] Classpath:
+[DEBUG]  C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\test-classes
+[DEBUG]  C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.4.4\spring-boot-starter-web-3.4.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter\3.4.4\spring-boot-starter-3.4.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot\3.4.4\spring-boot-3.4.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.4.4\spring-boot-autoconfigure-3.4.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.4.4\spring-boot-starter-logging-3.4.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\slf4j\jul-to-slf4j\2.0.17\jul-to-slf4j-2.0.17.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.4.4\spring-boot-starter-json-3.4.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.18.3\jackson-datatype-jdk8-2.18.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.3\jackson-datatype-jsr310-2.18.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.18.3\jackson-module-parameter-names-2.18.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.4.4\spring-boot-starter-tomcat-3.4.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.39\tomcat-embed-core-10.1.39.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.39\tomcat-embed-el-10.1.39.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.39\tomcat-embed-websocket-10.1.39.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-web\6.2.5\spring-web-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-beans\6.2.5\spring-beans-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-observation\1.14.5\micrometer-observation-1.14.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-commons\1.14.5\micrometer-commons-1.14.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-webmvc\6.2.5\spring-webmvc-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-aop\6.2.5\spring-aop-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-context\6.2.5\spring-context-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-expression\6.2.5\spring-expression-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-mistral-ai-spring-boot-starter\1.0.0-M6\spring-ai-mistral-ai-spring-boot-starter-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-spring-boot-autoconfigure\1.0.0-M6\spring-ai-spring-boot-autoconfigure-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-mistral-ai\1.0.0-M6\spring-ai-mistral-ai-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-core\1.0.0-M6\spring-ai-core-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\module\jackson-module-jsonSchema\2.18.3\jackson-module-jsonSchema-2.18.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\io\swagger\core\v3\swagger-annotations\2.2.25\swagger-annotations-2.2.25.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-module-swagger-2\4.37.0\jsonschema-module-swagger-2-4.37.0.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\antlr\ST4\4.3.4\ST4-4.3.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\antlr\antlr-runtime\3.5.3\antlr-runtime-3.5.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\io\projectreactor\reactor-core\3.7.4\reactor-core-3.7.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-messaging\6.2.5\spring-messaging-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-core\1.14.5\micrometer-core-1.14.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.2\HdrHistogram-2.2.2.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\io\micrometer\context-propagation\1.1.2\context-propagation-1.1.2.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\knuddels\jtokkit\1.1.0\jtokkit-1.1.0.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-generator\4.37.0\jsonschema-generator-4.37.0.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-module-jackson\4.37.0\jsonschema-module-jackson-4.37.0.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-retry\1.0.0-M6\spring-ai-retry-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\retry\spring-retry\2.0.11\spring-retry-2.0.11.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-webflux\6.2.5\spring-webflux-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-context-support\6.2.5\spring-context-support-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-ollama-spring-boot-starter\1.0.0-M6\spring-ai-ollama-spring-boot-starter-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-ollama\1.0.0-M6\spring-ai-ollama-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-stability-ai-spring-boot-starter\1.0.0-M6\spring-ai-stability-ai-spring-boot-starter-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-stability-ai\1.0.0-M6\spring-ai-stability-ai-1.0.0-M6.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.4.4\spring-boot-starter-test-3.4.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-test\3.4.4\spring-boot-test-3.4.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.4.4\spring-boot-test-autoconfigure-3.4.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\net\minidev\json-smart\2.5.2\json-smart-2.5.2.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\net\minidev\accessors-smart\2.5.2\accessors-smart-2.5.2.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\ow2\asm\asm\9.7.1\asm-9.7.1.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\mockito\mockito-core\5.14.2\mockito-core-5.14.2.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.11\byte-buddy-agent-1.15.11.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\mockito\mockito-junit-jupiter\5.14.2\mockito-junit-jupiter-5.14.2.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-core\6.2.5\spring-core-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-jcl\6.2.5\spring-jcl-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\springframework\spring-test\6.2.5\spring-test-6.2.5.jar
+[DEBUG]  C:\Users\kmanu\.m2\repository\org\xmlunit\xmlunit-core\2.10.0\xmlunit-core-2.10.0.jar
+[DEBUG] Source roots:
+[DEBUG]  C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\test\java
+[DEBUG]  C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\generated-test-sources\test-annotations
+[DEBUG] Command line options:
+[DEBUG] -d C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\test-classes -classpath C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\test-classes;C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.4.4\spring-boot-starter-web-3.4.4.jar;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter\3.4.4\spring-boot-starter-3.4.4.jar;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot\3.4.4\spring-boot-3.4.4.jar;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.4.4\spring-boot-autoconfigure-3.4.4.jar;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.4.4\spring-boot-starter-logging-3.4.4.jar;C:\Users\kmanu\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar;C:\Users\kmanu\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar;C:\Users\kmanu\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar;C:\Users\kmanu\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\kmanu\.m2\repository\org\slf4j\jul-to-slf4j\2.0.17\jul-to-slf4j-2.0.17.jar;C:\Users\kmanu\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\kmanu\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.4.4\spring-boot-starter-json-3.4.4.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.18.3\jackson-datatype-jdk8-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.3\jackson-datatype-jsr310-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.18.3\jackson-module-parameter-names-2.18.3.jar;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.4.4\spring-boot-starter-tomcat-3.4.4.jar;C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.39\tomcat-embed-core-10.1.39.jar;C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.39\tomcat-embed-el-10.1.39.jar;C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.39\tomcat-embed-websocket-10.1.39.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-web\6.2.5\spring-web-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-beans\6.2.5\spring-beans-6.2.5.jar;C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-observation\1.14.5\micrometer-observation-1.14.5.jar;C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-commons\1.14.5\micrometer-commons-1.14.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-webmvc\6.2.5\spring-webmvc-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-aop\6.2.5\spring-aop-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-context\6.2.5\spring-context-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-expression\6.2.5\spring-expression-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-mistral-ai-spring-boot-starter\1.0.0-M6\spring-ai-mistral-ai-spring-boot-starter-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-spring-boot-autoconfigure\1.0.0-M6\spring-ai-spring-boot-autoconfigure-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-mistral-ai\1.0.0-M6\spring-ai-mistral-ai-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-core\1.0.0-M6\spring-ai-core-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\module\jackson-module-jsonSchema\2.18.3\jackson-module-jsonSchema-2.18.3.jar;C:\Users\kmanu\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\kmanu\.m2\repository\io\swagger\core\v3\swagger-annotations\2.2.25\swagger-annotations-2.2.25.jar;C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-module-swagger-2\4.37.0\jsonschema-module-swagger-2-4.37.0.jar;C:\Users\kmanu\.m2\repository\org\antlr\ST4\4.3.4\ST4-4.3.4.jar;C:\Users\kmanu\.m2\repository\org\antlr\antlr-runtime\3.5.3\antlr-runtime-3.5.3.jar;C:\Users\kmanu\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\kmanu\.m2\repository\io\projectreactor\reactor-core\3.7.4\reactor-core-3.7.4.jar;C:\Users\kmanu\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-messaging\6.2.5\spring-messaging-6.2.5.jar;C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-core\1.14.5\micrometer-core-1.14.5.jar;C:\Users\kmanu\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.2\HdrHistogram-2.2.2.jar;C:\Users\kmanu\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\kmanu\.m2\repository\io\micrometer\context-propagation\1.1.2\context-propagation-1.1.2.jar;C:\Users\kmanu\.m2\repository\com\knuddels\jtokkit\1.1.0\jtokkit-1.1.0.jar;C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-generator\4.37.0\jsonschema-generator-4.37.0.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-module-jackson\4.37.0\jsonschema-module-jackson-4.37.0.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-retry\1.0.0-M6\spring-ai-retry-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\retry\spring-retry\2.0.11\spring-retry-2.0.11.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-webflux\6.2.5\spring-webflux-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-context-support\6.2.5\spring-context-support-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-ollama-spring-boot-starter\1.0.0-M6\spring-ai-ollama-spring-boot-starter-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-ollama\1.0.0-M6\spring-ai-ollama-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-stability-ai-spring-boot-starter\1.0.0-M6\spring-ai-stability-ai-spring-boot-starter-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-stability-ai\1.0.0-M6\spring-ai-stability-ai-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.4.4\spring-boot-starter-test-3.4.4.jar;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-test\3.4.4\spring-boot-test-3.4.4.jar;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.4.4\spring-boot-test-autoconfigure-3.4.4.jar;C:\Users\kmanu\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\kmanu\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\kmanu\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\kmanu\.m2\repository\net\minidev\json-smart\2.5.2\json-smart-2.5.2.jar;C:\Users\kmanu\.m2\repository\net\minidev\accessors-smart\2.5.2\accessors-smart-2.5.2.jar;C:\Users\kmanu\.m2\repository\org\ow2\asm\asm\9.7.1\asm-9.7.1.jar;C:\Users\kmanu\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\kmanu\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\kmanu\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\kmanu\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\kmanu\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\kmanu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\kmanu\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\kmanu\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\kmanu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\kmanu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\kmanu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\kmanu\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;C:\Users\kmanu\.m2\repository\org\mockito\mockito-core\5.14.2\mockito-core-5.14.2.jar;C:\Users\kmanu\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.11\byte-buddy-agent-1.15.11.jar;C:\Users\kmanu\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\kmanu\.m2\repository\org\mockito\mockito-junit-jupiter\5.14.2\mockito-junit-jupiter-5.14.2.jar;C:\Users\kmanu\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\kmanu\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-core\6.2.5\spring-core-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-jcl\6.2.5\spring-jcl-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-test\6.2.5\spring-test-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\xmlunit\xmlunit-core\2.10.0\xmlunit-core-2.10.0.jar; -sourcepath C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\src\test\java;C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\generated-test-sources\test-annotations; -s C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\generated-test-sources\test-annotations -g -parameters --release 17 -encoding UTF-8 -XDuseUnsharedTable=true
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target\test-classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] <<< spring-boot:3.4.4:run (default-cli) < test-compile @ SpringAIDemo <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.4.4:run (default-cli) @ SpringAIDemo ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=111900, ConflictMarker.markTime=45400, ConflictMarker.nodeCount=55, ConflictIdSorter.graphTime=45500, ConflictIdSorter.topsortTime=27400, ConflictIdSorter.conflictIdCount=39, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=829900, ConflictResolver.conflictItemCount=55, DfDependencyCollector.collectTime=112686900, DfDependencyCollector.transformTime=1088500}
+[DEBUG] org.springframework.boot:spring-boot-maven-plugin:jar:3.4.4
+[DEBUG]    org.springframework.boot:spring-boot-buildpack-platform:jar:3.4.4:runtime
+[DEBUG]       com.fasterxml.jackson.core:jackson-databind:jar:2.18.3:runtime
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.18.3:runtime
+[DEBUG]          com.fasterxml.jackson.core:jackson-core:jar:2.18.3:runtime
+[DEBUG]       com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.18.3:runtime
+[DEBUG]       net.java.dev.jna:jna-platform:jar:5.13.0:runtime
+[DEBUG]          net.java.dev.jna:jna:jar:5.13.0:runtime
+[DEBUG]       org.apache.commons:commons-compress:jar:1.25.0:runtime
+[DEBUG]       org.apache.httpcomponents.client5:httpclient5:jar:5.4.2:runtime
+[DEBUG]          org.apache.httpcomponents.core5:httpcore5:jar:5.3.3:runtime
+[DEBUG]          org.apache.httpcomponents.core5:httpcore5-h2:jar:5.3.3:runtime
+[DEBUG]       org.tomlj:tomlj:jar:1.0.0:runtime
+[DEBUG]          org.antlr:antlr4-runtime:jar:4.7.2:runtime
+[DEBUG]          com.google.code.findbugs:jsr305:jar:3.0.2:runtime
+[DEBUG]    org.springframework.boot:spring-boot-loader-tools:jar:3.4.4:runtime
+[DEBUG]    org.apache.maven.shared:maven-common-artifact-filters:jar:3.3.2:runtime
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]    org.sonatype.plexus:plexus-build-api:jar:0.0.7:runtime
+[DEBUG]    org.springframework:spring-core:jar:6.2.5:runtime
+[DEBUG]       org.springframework:spring-jcl:jar:6.2.5:runtime
+[DEBUG]    org.springframework:spring-context:jar:6.2.5:runtime
+[DEBUG]       org.springframework:spring-aop:jar:6.2.5:runtime
+[DEBUG]       org.springframework:spring-beans:jar:6.2.5:runtime
+[DEBUG]       org.springframework:spring-expression:jar:6.2.5:runtime
+[DEBUG]       io.micrometer:micrometer-observation:jar:1.14.5:runtime
+[DEBUG]          io.micrometer:micrometer-commons:jar:1.14.5:runtime
+[DEBUG]    org.apache.maven.plugins:maven-shade-plugin:jar:3.5.0:compile (optional)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.5.1:compile (optional)
+[DEBUG]       org.ow2.asm:asm:jar:9.5:compile (optional)
+[DEBUG]       org.ow2.asm:asm-commons:jar:9.5:compile (optional)
+[DEBUG]          org.ow2.asm:asm-tree:jar:9.5:compile (optional)
+[DEBUG]       org.jdom:jdom2:jar:2.0.6.1:compile (optional)
+[DEBUG]       org.apache.maven.shared:maven-dependency-tree:jar:3.2.1:compile (optional)
+[DEBUG]          org.eclipse.aether:aether-util:jar:1.0.0.v20140518:compile (optional)
+[DEBUG]             org.eclipse.aether:aether-api:jar:1.0.0.v20140518:compile (optional)
+[DEBUG]       commons-io:commons-io:jar:2.13.0:compile (optional)
+[DEBUG]       org.vafer:jdependency:jar:2.8.0:compile (optional)
+[DEBUG]       org.apache.commons:commons-collections4:jar:4.4:compile (optional)
+[DEBUG] Created new class realm plugin>org.springframework.boot:spring-boot-maven-plugin:3.4.4
+[DEBUG] Importing foreign packages into class realm plugin>org.springframework.boot:spring-boot-maven-plugin:3.4.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.springframework.boot:spring-boot-maven-plugin:3.4.4
+[DEBUG]   Included: org.springframework.boot:spring-boot-maven-plugin:jar:3.4.4
+[DEBUG]   Included: org.springframework.boot:spring-boot-buildpack-platform:jar:3.4.4
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-databind:jar:2.18.3
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-annotations:jar:2.18.3
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-core:jar:2.18.3
+[DEBUG]   Included: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.18.3
+[DEBUG]   Included: net.java.dev.jna:jna-platform:jar:5.13.0
+[DEBUG]   Included: net.java.dev.jna:jna:jar:5.13.0
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.25.0
+[DEBUG]   Included: org.apache.httpcomponents.client5:httpclient5:jar:5.4.2
+[DEBUG]   Included: org.apache.httpcomponents.core5:httpcore5:jar:5.3.3
+[DEBUG]   Included: org.apache.httpcomponents.core5:httpcore5-h2:jar:5.3.3
+[DEBUG]   Included: org.tomlj:tomlj:jar:1.0.0
+[DEBUG]   Included: org.antlr:antlr4-runtime:jar:4.7.2
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:3.0.2
+[DEBUG]   Included: org.springframework.boot:spring-boot-loader-tools:jar:3.4.4
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:3.3.2
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: org.springframework:spring-core:jar:6.2.5
+[DEBUG]   Included: org.springframework:spring-jcl:jar:6.2.5
+[DEBUG]   Included: org.springframework:spring-context:jar:6.2.5
+[DEBUG]   Included: org.springframework:spring-aop:jar:6.2.5
+[DEBUG]   Included: org.springframework:spring-beans:jar:6.2.5
+[DEBUG]   Included: org.springframework:spring-expression:jar:6.2.5
+[DEBUG]   Included: io.micrometer:micrometer-observation:jar:1.14.5
+[DEBUG]   Included: io.micrometer:micrometer-commons:jar:1.14.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-shade-plugin:jar:3.5.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.5.1
+[DEBUG]   Included: org.ow2.asm:asm:jar:9.5
+[DEBUG]   Included: org.ow2.asm:asm-commons:jar:9.5
+[DEBUG]   Included: org.ow2.asm:asm-tree:jar:9.5
+[DEBUG]   Included: org.jdom:jdom2:jar:2.0.6.1
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:3.2.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.13.0
+[DEBUG]   Included: org.vafer:jdependency:jar:2.8.0
+[DEBUG]   Included: org.apache.commons:commons-collections4:jar:4.4
+[DEBUG] Loading mojo org.springframework.boot:spring-boot-maven-plugin:3.4.4:run from plugin realm ClassRealm[plugin>org.springframework.boot:spring-boot-maven-plugin:3.4.4, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo execution 'org.springframework.boot:spring-boot-maven-plugin:3.4.4:run:default-cli' with basic configurator -->
+[DEBUG]   (f) addResources = false
+[DEBUG]   (f) additionalClasspathElements = []
+[DEBUG]   (f) agents = []
+[DEBUG]   (f) classesDirectory = C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes
+[DEBUG]   (f) excludes = []
+[DEBUG]   (f) includes = []
+[DEBUG]   (f) optimizedLaunch = true
+[DEBUG]   (f) profiles = []
+[DEBUG]   (f) project = MavenProject: com.springai:SpringAIDemo:0.0.1-SNAPSHOT @ C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@59cda16e
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) useTestClasspath = false
+[DEBUG] -- end configuration --
+[INFO] Attaching agents: []
+[DEBUG] JVM argument: -XX:TieredStopAtLevel=1
+[DEBUG] Classpath for forked process: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot\3.4.4\spring-boot-3.4.4.jar;C:\Users\kmanu\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.4.4\spring-boot-autoconfigure-3.4.4.jar;C:\Users\kmanu\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar;C:\Users\kmanu\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar;C:\Users\kmanu\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar;C:\Users\kmanu\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\kmanu\.m2\repository\org\slf4j\jul-to-slf4j\2.0.17\jul-to-slf4j-2.0.17.jar;C:\Users\kmanu\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\kmanu\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.18.3\jackson-datatype-jdk8-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.3\jackson-datatype-jsr310-2.18.3.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.18.3\jackson-module-parameter-names-2.18.3.jar;C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.39\tomcat-embed-core-10.1.39.jar;C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.39\tomcat-embed-el-10.1.39.jar;C:\Users\kmanu\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.39\tomcat-embed-websocket-10.1.39.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-web\6.2.5\spring-web-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-beans\6.2.5\spring-beans-6.2.5.jar;C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-observation\1.14.5\micrometer-observation-1.14.5.jar;C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-commons\1.14.5\micrometer-commons-1.14.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-webmvc\6.2.5\spring-webmvc-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-aop\6.2.5\spring-aop-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-context\6.2.5\spring-context-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-expression\6.2.5\spring-expression-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-mistral-ai-spring-boot-starter\1.0.0-M6\spring-ai-mistral-ai-spring-boot-starter-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-spring-boot-autoconfigure\1.0.0-M6\spring-ai-spring-boot-autoconfigure-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-mistral-ai\1.0.0-M6\spring-ai-mistral-ai-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-core\1.0.0-M6\spring-ai-core-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\jackson\module\jackson-module-jsonSchema\2.18.3\jackson-module-jsonSchema-2.18.3.jar;C:\Users\kmanu\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\kmanu\.m2\repository\io\swagger\core\v3\swagger-annotations\2.2.25\swagger-annotations-2.2.25.jar;C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-module-swagger-2\4.37.0\jsonschema-module-swagger-2-4.37.0.jar;C:\Users\kmanu\.m2\repository\org\antlr\ST4\4.3.4\ST4-4.3.4.jar;C:\Users\kmanu\.m2\repository\org\antlr\antlr-runtime\3.5.3\antlr-runtime-3.5.3.jar;C:\Users\kmanu\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\kmanu\.m2\repository\io\projectreactor\reactor-core\3.7.4\reactor-core-3.7.4.jar;C:\Users\kmanu\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-messaging\6.2.5\spring-messaging-6.2.5.jar;C:\Users\kmanu\.m2\repository\io\micrometer\micrometer-core\1.14.5\micrometer-core-1.14.5.jar;C:\Users\kmanu\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.2\HdrHistogram-2.2.2.jar;C:\Users\kmanu\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\kmanu\.m2\repository\io\micrometer\context-propagation\1.1.2\context-propagation-1.1.2.jar;C:\Users\kmanu\.m2\repository\com\knuddels\jtokkit\1.1.0\jtokkit-1.1.0.jar;C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-generator\4.37.0\jsonschema-generator-4.37.0.jar;C:\Users\kmanu\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\kmanu\.m2\repository\com\github\victools\jsonschema-module-jackson\4.37.0\jsonschema-module-jackson-4.37.0.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-retry\1.0.0-M6\spring-ai-retry-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\retry\spring-retry\2.0.11\spring-retry-2.0.11.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-webflux\6.2.5\spring-webflux-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-context-support\6.2.5\spring-context-support-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-ollama-spring-boot-starter\1.0.0-M6\spring-ai-ollama-spring-boot-starter-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-ollama\1.0.0-M6\spring-ai-ollama-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-stability-ai-spring-boot-starter\1.0.0-M6\spring-ai-stability-ai-spring-boot-starter-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\ai\spring-ai-stability-ai\1.0.0-M6\spring-ai-stability-ai-1.0.0-M6.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-core\6.2.5\spring-core-6.2.5.jar;C:\Users\kmanu\.m2\repository\org\springframework\spring-jcl\6.2.5\spring-jcl-6.2.5.jar
+[DEBUG] Application arguments: 
+[DEBUG] Working directory: C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo
+[DEBUG] Java arguments: -XX:TieredStopAtLevel=1 -cp @C:\Users\kmanu\AppData\Local\Temp\spring-boot-17353099628609851341.argfile com.springai.SpringAIDemo.SpringAiDemoApplication
+[DEBUG] Environment variables: 
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2025-04-23T22:03:48.431+05:30  INFO 19896 --- [SpringAIDemo] [           main] c.s.S.SpringAiDemoApplication            : Starting SpringAiDemoApplication using Java 21.0.6 with PID 19896 (C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes started by kmanu in C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo)
+2025-04-23T22:03:48.432+05:30  INFO 19896 --- [SpringAIDemo] [           main] c.s.S.SpringAiDemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-04-23T22:03:49.246+05:30  INFO 19896 --- [SpringAIDemo] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2025-04-23T22:03:49.257+05:30  INFO 19896 --- [SpringAIDemo] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-23T22:03:49.257+05:30  INFO 19896 --- [SpringAIDemo] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-23T22:03:49.300+05:30  INFO 19896 --- [SpringAIDemo] [           main] o.a.c.c.C.[.[localhost].[/ollama]        : Initializing Spring embedded WebApplicationContext
+2025-04-23T22:03:49.301+05:30  INFO 19896 --- [SpringAIDemo] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 834 ms
+2025-04-23T22:03:49.340+05:30  WARN 19896 --- [SpringAIDemo] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'chatbotController' defined in file [C:\Users\kmanu\OneDrive\Desktop\Anushka-Java\springAIDemo\SpringAIDemo\SpringAIDemo\target\classes\com\springai\SpringAIDemo\ChatbotController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'chatClientBuilder' defined in class path resource [org/springframework/ai/autoconfigure/chat/client/ChatClientAutoConfiguration.class]: Unsatisfied dependency expressed through method 'chatClientBuilder' parameter 1: No qualifying bean of type 'org.springframework.ai.chat.model.ChatModel' available: expected single matching bean but found 2: mistralAiChatModel,ollamaChatModel
+2025-04-23T22:03:49.342+05:30  INFO 19896 --- [SpringAIDemo] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-04-23T22:03:49.351+05:30  INFO 19896 --- [SpringAIDemo] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-23T22:03:49.367+05:30 ERROR 19896 --- [SpringAIDemo] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of method chatClientBuilder in org.springframework.ai.autoconfigure.chat.client.ChatClientAutoConfiguration required a single bean, but 2 were found:
+	- mistralAiChatModel: defined by method 'mistralAiChatModel' in class path resource [org/springframework/ai/autoconfigure/mistralai/MistralAiAutoConfiguration.class]
+	- ollamaChatModel: defined by method 'ollamaChatModel' in class path resource [org/springframework/ai/autoconfigure/ollama/OllamaAutoConfiguration.class]
+
+This may be due to missing parameter name information
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+Ensure that your compiler is configured to use the '-parameters' flag.
+You may need to update both your build tool settings as well as your IDE.
+(See https://github.com/spring-projects/spring-framework/wiki/Upgrading-to-Spring-Framework-6.x#parameter-name-retention)
+
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.175 s
+[INFO] Finished at: 2025-04-23T22:03:49+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.4.4:run (default-cli) on project SpringAIDemo: Process terminated with exit code: 1 -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.4.4:run (default-cli) on project SpringAIDemo: Process terminated with exit code: 1
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.MojoExecutionException: Process terminated with exit code: 1
+    at org.springframework.boot.maven.JavaProcessExecutor.run (JavaProcessExecutor.java:74)
+    at org.springframework.boot.maven.RunMojo.run (RunMojo.java:76)
+    at org.springframework.boot.maven.AbstractRunMojo.run (AbstractRunMojo.java:251)
+    at org.springframework.boot.maven.AbstractRunMojo.execute (AbstractRunMojo.java:214)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[DEBUG] Shutting down 'file-lock' factory
+[DEBUG] Shutting down 'rwlock-local' factory
+[DEBUG] Shutting down 'semaphore-local' factory
+[DEBUG] Shutting down 'noop' factory
