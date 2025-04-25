@@ -1,77 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Spring AI Chat - Ollama</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px auto;
-      max-width: 600px;
-      padding: 0 20px;
-    }
-    h2 { color: #333; }
-    #chat-box {
-      border: 1px solid #ccc;
-      padding: 15px;
-      height: 300px;
-      overflow-y: scroll;
-      background: #f9f9f9;
-      margin-bottom: 20px;
-    }
-    .message { margin-bottom: 10px; }
-    .user { font-weight: bold; color: #007bff; }
-    .bot { font-weight: bold; color: #28a745; }
-    input, button {
-      padding: 10px;
-      font-size: 16px;
-    }
-    #prompt {
-      width: 75%;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Ollama Chatbot</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: url('https://images.unsplash.com/photo-1527181152855-fc03fc7949c8?auto=format&fit=crop&w=1740&q=80') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .chat-container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            margin-top: 10px;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .response {
+            margin-top: 20px;
+            background: #f1f1f1;
+            padding: 15px;
+            border-radius: 8px;
+            min-height: 60px;
+            white-space: pre-wrap;
+        }
+    </style>
 </head>
 <body>
-  <h2>🧠 Spring AI Chatbot (LLaMA2 via Ollama)</h2>
+<div class="chat-container">
+    <h1>Ollama Chatbot</h1>
+    <textarea id="userInput" placeholder="Type your message..."></textarea>
+    <button onclick="sendMessage()">Send</button>
+    <div class="response" id="responseBox">Waiting for response...</div>
+</div>
 
-  <div id="chat-box"></div>
-
-  <input type="text" id="prompt" placeholder="Ask me something..." />
-  <button onclick="sendMessage()">Send</button>
-
-  <script>
-    const chatBox = document.getElementById("chat-box");
-
-    function appendMessage(sender, text) {
-      const div = document.createElement("div");
-      div.classList.add("message");
-      div.innerHTML = `<span class="${sender}">${sender}:</span> ${text}`;
-      chatBox.appendChild(div);
-      chatBox.scrollTop = chatBox.scrollHeight;
-    }
-
+<script>
     function sendMessage() {
-      const promptInput = document.getElementById("prompt");
-      const message = promptInput.value.trim();
-      if (!message) return;
+        const userMessage = document.getElementById("userInput").value;
+        document.getElementById("responseBox").innerText = "Thinking...";
 
-      appendMessage("user", message);
-
-      fetch("/chat/12345", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(message)
-      })
-      .then(res => res.text())
-      .then(data => {
-        appendMessage("bot", data);
-      })
-      .catch(err => {
-        appendMessage("bot", "Error: " + err.message);
-      });
-
-      promptInput.value = "";
+        fetch("http://localhost:8080/chat/12345", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(userMessage)
+        })
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("responseBox").innerText = data;
+        })
+        .catch(error => {
+            document.getElementById("responseBox").innerText = "Error: " + error.message;
+        });
     }
-  </script>
+</script>
 </body>
 </html>
