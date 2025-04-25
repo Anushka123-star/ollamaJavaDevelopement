@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spring AI Chat - Ollama</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px auto;
+      max-width: 600px;
+      padding: 0 20px;
+    }
+    h2 { color: #333; }
+    #chat-box {
+      border: 1px solid #ccc;
+      padding: 15px;
+      height: 300px;
+      overflow-y: scroll;
+      background: #f9f9f9;
+      margin-bottom: 20px;
+    }
+    .message { margin-bottom: 10px; }
+    .user { font-weight: bold; color: #007bff; }
+    .bot { font-weight: bold; color: #28a745; }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+    }
+    #prompt {
+      width: 75%;
+    }
+  </style>
+</head>
+<body>
+  <h2>🧠 Spring AI Chatbot (LLaMA2 via Ollama)</h2>
+
+  <div id="chat-box"></div>
+
+  <input type="text" id="prompt" placeholder="Ask me something..." />
+  <button onclick="sendMessage()">Send</button>
+
+  <script>
+    const chatBox = document.getElementById("chat-box");
+
+    function appendMessage(sender, text) {
+      const div = document.createElement("div");
+      div.classList.add("message");
+      div.innerHTML = `<span class="${sender}">${sender}:</span> ${text}`;
+      chatBox.appendChild(div);
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    function sendMessage() {
+      const promptInput = document.getElementById("prompt");
+      const message = promptInput.value.trim();
+      if (!message) return;
+
+      appendMessage("user", message);
+
+      fetch("/chat/12345", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(message)
+      })
+      .then(res => res.text())
+      .then(data => {
+        appendMessage("bot", data);
+      })
+      .catch(err => {
+        appendMessage("bot", "Error: " + err.message);
+      });
+
+      promptInput.value = "";
+    }
+  </script>
+</body>
+</html>
