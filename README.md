@@ -29,7 +29,6 @@ This project is a simple chatbot web application that connects a **Spring Boot**
 - Ollama (installed locally)
 
 ---
-
 ## 📦 How to Run
 
 ### 1. Clone the Repository
