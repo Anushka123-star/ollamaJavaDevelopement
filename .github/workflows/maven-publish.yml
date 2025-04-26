@@ -35,6 +35,8 @@ jobs:
 
       - name: Build project with Maven
         run: mvn clean install
+        working-directory: SpringAIDemo
 
       - name: Run tests
         run: mvn test
+        working-directory: SpringAIDemo
